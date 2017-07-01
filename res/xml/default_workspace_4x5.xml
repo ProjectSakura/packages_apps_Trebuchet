@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <!-- Copyright (C) 2009 The Android Open Source Project
+=======
+<!-- Copyright (C) 2015 The Android Open Source Project
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,6 +20,7 @@
 
 <favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
 
+<<<<<<< HEAD
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
     <!-- Dialer, Messaging, Browser, Camera -->
     <resolve
@@ -57,17 +62,26 @@
         <favorite launcher:uri="#Intent;action=android.media.action.STILL_IMAGE_CAMERA;end" />
         <favorite launcher:uri="#Intent;action=android.intent.action.CAMERA_BUTTON;end" />
     </resolve>
+=======
+    <!-- Hotseat -->
+    <include launcher:workspace="@xml/dw_hotseat_4" />
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
 
     <!-- Screen 0 -->
     <appwidget
         launcher:packageName="com.google.android.googlequicksearchbox"
+<<<<<<< HEAD
         launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+=======
+        launcher:className="com.google.android.apps.gsa.staticplugins.smartspace.widget.SmartspaceWidgetProvider"
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
         launcher:screen="0"
         launcher:x="0"
         launcher:y="0"
         launcher:spanX="4"
         launcher:spanY="1" />
 
+<<<<<<< HEAD
     <appwidget
         launcher:packageName="com.android.deskclock"
         launcher:className="com.android.alarmclock.DigitalAppWidgetProvider"
@@ -79,11 +93,18 @@
 
     <!-- Google folder -->
     <!-- Google, Gmail, Maps, YouTube, Drive, YouTube Music, Play Movies, Duo, Photos -->
+=======
+    <!-- Google folder -->
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
     <folder
         launcher:title="@string/google_folder_title"
         launcher:screen="0"
         launcher:x="0"
+<<<<<<< HEAD
         launcher:y="3">
+=======
+        launcher:y="-1">
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
         <favorite
             launcher:packageName="com.google.android.googlequicksearchbox"
             launcher:className="com.google.android.googlequicksearchbox.SearchActivity"/>
@@ -111,6 +132,7 @@
         <favorite
             launcher:packageName="com.google.android.apps.photos"
             launcher:className="com.google.android.apps.photos.home.HomeActivity"/>
+<<<<<<< HEAD
     </folder>
 
     <favorite
@@ -124,18 +146,74 @@
     <appwidget
         launcher:packageName="org.lineageos.twelve"
         launcher:className="org.lineageos.twelve.ui.widgets.NowPlayingAppWidgetProvider"
+=======
+        <favorite
+            launcher:packageName="com.android.chrome"
+            launcher:className="com.google.android.apps.chrome.Main" />
+        <favorite
+            launcher:packageName="com.google.android.calendar"
+            launcher:className="com.android.calendar.AllInOneActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.plus"
+            launcher:className="com.google.android.apps.plus.phone.HomeActivity" />
+        <favorite
+            launcher:packageName="com.google.android.play.games"
+            launcher:className="com.google.android.gms.games.ui.destination.main.MainActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.books"
+            launcher:className="com.google.android.apps.books.app.BooksActivity" />
+        <favorite
+            launcher:packageName="com.google.android.apps.magazines"
+            launcher:className="com.google.apps.dots.android.app.activity.CurrentsStartActivity" />
+    </folder>
+
+    <resolve
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="-1" >
+        <favorite launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_MARKET;end" />
+        <favorite launcher:uri="market://details?id=com.android.launcher" />
+    </resolve>
+
+    <!-- Screen 1 -->
+    <appwidget
+        launcher:packageName="org.lineageos.eleven"
+        launcher:className="org.lineageos.eleven.appwidgets.AppWidgetLarge"
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
         launcher:screen="1"
         launcher:x="0"
         launcher:y="0"
         launcher:spanX="4"
+<<<<<<< HEAD
         launcher:spanY="1" />
+=======
+        launcher:spanY="2" />
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
 
     <resolve
         launcher:screen="1"
         launcher:x="0"
         launcher:y="-1" >
+<<<<<<< HEAD
         <favorite launcher:uri="#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_EMAIL;end" />
         <favorite launcher:uri="mailto:" />
+=======
+        <favorite
+            launcher:packageName="org.lineageos.aperture"
+            launcher:className="com.android.camera.CameraLauncher" />
+        <favorite
+            launcher:packageName="com.android.camera2"
+            launcher:className="com.android.camera.CameraActivity" />
+        <favorite
+            launcher:packageName="com.android.camera"
+            launcher:className="com.android.camera.Camera" />
+        <favorite
+            launcher:packageName="com.oneplus.camera"
+            launcher:className="com.oneplus.camera.OPCameraActivity" />
+        <favorite
+            launcher:packageName="com.oplus.camera"
+            launcher:className="com.oplus.camera.Camera" />
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
     </resolve>
 
     <resolve
@@ -147,8 +225,13 @@
     </resolve>
 
     <favorite
+<<<<<<< HEAD
         launcher:packageName="org.lineageos.twelve"
         launcher:className="org.lineageos.twelve.MainActivity"
+=======
+        launcher:packageName="org.lineageos.eleven"
+        launcher:className="org.lineageos.eleven.ui.activities.HomeActivity"
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
         launcher:screen="1"
         launcher:x="2"
         launcher:y="-1" />
@@ -159,5 +242,8 @@
         launcher:screen="1"
         launcher:x="3"
         launcher:y="-1" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4c8c8f7722 (Launcher3: Replace 4x4 grid option with a 4x5 one)
 </favorites>
