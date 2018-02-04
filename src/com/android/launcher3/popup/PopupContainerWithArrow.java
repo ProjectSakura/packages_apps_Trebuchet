@@ -779,6 +779,9 @@ public class PopupContainerWithArrow<T extends Context & ActivityContext>
             // Return early if workspace edit is disabled
             if (!Utilities.isWorkspaceEditAllowed(mLauncher.getApplicationContext())) return false;
 
+            // Return early if workspace edit is disabled
+            if (!Utilities.isWorkspaceEditAllowed(mLauncher.getApplicationContext())) return false;
+
             // Long clicked on a shortcut.
             DeepShortcutView sv = (DeepShortcutView) v.getParent();
             sv.setWillDrawIcon(false);
