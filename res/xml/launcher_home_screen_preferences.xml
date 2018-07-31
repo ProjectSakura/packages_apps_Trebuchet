@@ -45,6 +45,18 @@
             android:summary="@string/pref_sleep_gesture_summary"
             android:defaultValue="true"
             android:persistent="true"/>
+            
+        <SwitchPreference
+            android:key="pref_enable_minus_one"
+            android:title="@string/title_show_google_app"
+            android:summary="@string/pref_show_google_now_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="pref_desktop_show_labels"
+            android:title="@string/desktop_show_labels"
+            android:defaultValue="true"
+            android:persistent="true"/>
 
     </PreferenceCategory>
 

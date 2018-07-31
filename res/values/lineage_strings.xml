@@ -16,7 +16,7 @@
 <resources>
     <!-- Application name -->
     <string name="lineageos_app_name" translatable="false">Trebuchet</string>
-
+    <string name="pref_show_google_now_summary" translatable="false">@string/msg_minus_one_on_right</string>
     <!-- Settings -->
 
     <!-- Edit workspace -->
