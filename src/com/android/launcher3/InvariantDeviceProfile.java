@@ -354,6 +354,10 @@ public class InvariantDeviceProfile implements SafeCloseable, OnSharedPreference
             case KEY_SHOW_DRAWER_LABELS:
                 onConfigChanged(mContext);
                 break;
+	}
+
+        if (KEY_SHOW_DESKTOP_LABELS.equals(key) || KEY_SHOW_DRAWER_LABELS.equals(key)) {
+            onConfigChanged(mContext);
         }
     }
 
