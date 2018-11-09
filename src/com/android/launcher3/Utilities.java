@@ -131,6 +131,7 @@ public final class Utilities {
     public static final String KEY_SHOW_ALT_QUICKSPACE = "pref_show_alt_quickspace";
     public static final String KEY_SHOW_QUICKSPACE_PSONALITY = "pref_quickspace_psonality";
     public static final String KEY_DOCK_SEARCH = "pref_dock_search";
+    public static final String SEARCH_PACKAGE = "com.google.android.googlequicksearchbox";
 
     public static final String SLEEP_GESTURE = "pref_sleep_gesture";
     public static final String ICON_SIZE = "pref_custom_icon_size";
