@@ -73,6 +73,7 @@ public class TrustAppsActivity extends CollapsingToolbarBaseActivity implements
     protected void onCreate(@Nullable Bundle savedInstance) {
         super.onCreate(savedInstance);
 
+        setupEdgeToEdge();
         setContentView(R.layout.activity_hidden_apps);
         DynamicColors.applyToActivityIfAvailable(this);
         setTheme(com.android.settingslib.widget.theme.R.style.Theme_SubSettingsBase);
