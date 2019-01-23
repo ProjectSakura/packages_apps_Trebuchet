@@ -2159,7 +2159,7 @@ public class Launcher extends StatefulActivity<LauncherState>
     }
 
     public void startActivitySafelyAuth(View v, Intent intent, ItemInfo item) {
-        LineageUtils.showLockScreen(this, getString(R.string.trust_apps_manager_name), () -> {
+        Utilities.showLockScreen(this, getString(R.string.trust_apps_manager_name), () -> {
             startActivitySafely(v, intent, item);
         });
     }

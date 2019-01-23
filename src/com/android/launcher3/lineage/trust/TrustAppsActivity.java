@@ -46,6 +46,7 @@ import com.android.launcher3.LauncherAppState;
 import com.android.launcher3.LauncherPrefs;
 import com.android.launcher3.R;
 import com.android.launcher3.lineage.LineageUtils;
+import com.android.launcher3.Utilities;
 import com.android.launcher3.lineage.trust.db.TrustComponent;
 import com.android.launcher3.lineage.trust.db.TrustDatabaseHelper;
 
@@ -81,7 +82,7 @@ public class TrustAppsActivity extends Activity implements
         mLoadingView.setVisibility(View.VISIBLE);
         mProgressBar = findViewById(R.id.hidden_apps_progress_bar);
 
-        final boolean hasSecureKeyguard = LineageUtils.hasSecureKeyguard(this);
+        final boolean hasSecureKeyguard = Utilities.hasSecureKeyguard(this);
         mAdapter = new TrustAppsAdapter(this, hasSecureKeyguard);
         mDbHelper = TrustDatabaseHelper.getInstance(this);
 
