@@ -34,7 +34,7 @@ import android.view.View;
 import android.view.View.OnTouchListener;
 import android.view.ViewConfiguration;
 
-import com.android.internal.util.crdroid.Utils;
+import com.android.internal.util.sakura.Utils;
 import com.android.launcher3.AbstractFloatingView;
 import com.android.launcher3.CellLayout;
 import com.android.launcher3.DeviceProfile;
