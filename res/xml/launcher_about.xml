@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Preference
+            android:key="about_trebuchet"
+            android:title="@string/about_trebuchet_title"
+            android:summary="@string/about_trebuchet_summary"
+            android:persistent="false" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/ProjectSakura/packages_apps_Trebuchet" />
+        </Preference>
+
+        <Preference
+            android:key="app_info"
+            android:title="@string/app_info_drop_target_label"
+            android:persistent="false">
+            <intent
+                android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
+                android:data="package:com.android.launcher3" />
+        </Preference>
+
+        <Preference
+            android:key="about_app_version"
+            android:title="@string/about_app_version"
+            android:summary="@string/about_app_version_summary"
+            android:selectable="false"
+            android:persistent="false"/>
+
+    <PreferenceCategory 
+        android:title="@string/about_thanks_cat" >
+
+        <Preference
+            android:key="about_credit01"
+            android:title="LineageOS"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="about_credit01"
+            android:title="Amir Zaidi (Shade Launcher)"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="about_credit01"
+            android:title="crDroid team"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+        <Preference
+            android:key="about_credit01"
+            android:title="Lawnchair team"
+            android:persistent="false"
+            android:selectable="false">
+        </Preference>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen> 

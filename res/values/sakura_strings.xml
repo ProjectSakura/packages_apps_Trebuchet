@@ -177,4 +177,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="dock_search_title">Google search bar</string>
     <string name="dock_search_summary">Show at the bottom of your Home screen</string>
 
+    <!-- About info -->
+    <string name="about_trebuchet_title" translatable="false">Trebuchet+</string>
+    <string name="about_trebuchet_summary">Trebuchet+ is a customized Trebuchet launcher based on AOSP\'s Launcher3</string>
+    <string name="about_thanks_cat">Special thanks to</string>
+    <string name="about">About</string>
+    <string name="about_summary">Info about the launcher</string>
+    <string name="about_app_version">Version</string>
+    <string name="about_app_version_summary">1.R</string>
+
 </resources>
