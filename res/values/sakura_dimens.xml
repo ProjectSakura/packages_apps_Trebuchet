@@ -24,4 +24,8 @@
     <dimen name="quickspace_title_size">24dp</dimen>
     <dimen name="quickspace_alternate_title_size">22dp</dimen>
 
+    <!-- Dock search bar -->
+    <dimen name="qsb_wrapper_height">56dp</dimen>
+    <dimen name="qsb_widget_padding">8dp</dimen>
+
 </resources>
