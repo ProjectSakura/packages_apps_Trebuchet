@@ -305,4 +305,13 @@ public class AllAppsQsb extends QsbContainerView
     public EditText setTextSearchEnabled(boolean isEnabled) {
         return mFallbackSearchView;
     }
+
+    public boolean tryClearSearch() {
+        if (mFallbackSearchView.length() > 0) {
+            mAppsView.reset(true);
+            mAppsView.requestFocus();
+            return true;
+        }
+        return false;
+    }
 }
