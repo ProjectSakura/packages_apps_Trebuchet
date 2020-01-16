@@ -288,6 +288,13 @@ public class AllAppsContainerView extends SpringRelativeLayout implements DragSo
      * Resets the state of AllApps.
      */
     public void reset(boolean animate) {
+        resetScroll(animate);
+
+        // Reset the search bar and base recycler view after transitioning home
+        mSearchUiManager.resetSearch();
+    }
+
+    private void resetScroll(boolean animate) {
         for (int i = 0; i < mAH.length; i++) {
             if (mAH[i].recyclerView != null) {
                 mAH[i].recyclerView.scrollToTop();
@@ -296,8 +303,6 @@ public class AllAppsContainerView extends SpringRelativeLayout implements DragSo
         if (isHeaderVisible()) {
             mHeader.reset(animate);
         }
-        // Reset the search bar and base recycler view after transitioning home
-        mSearchUiManager.resetSearch();
     }
 
     @Override
@@ -482,7 +487,7 @@ public class AllAppsContainerView extends SpringRelativeLayout implements DragSo
         if (mAH[pos].recyclerView != null) {
             mAH[pos].recyclerView.bindFastScrollbar();
         }
-        reset(true /* animate */);
+        resetScroll(true /* animate */);
         if (mWorkModeSwitch != null) {
             mWorkModeSwitch.setWorkTabVisible(pos == AdapterHolder.WORK
                     && mAllAppsStore.hasModelFlag(
