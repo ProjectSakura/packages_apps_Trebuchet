@@ -175,6 +175,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
     <!-- Show dock search widget -->
     <string name="dock_search_title">Google search bar</string>
-    <string name="dock_search_summary">Show a search bar at the bottom of your Home screen</string>
+    <string name="dock_search_summary">Show at the bottom of your Home screen</string>
 
 </resources>
