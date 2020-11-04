@@ -21,4 +21,8 @@
     <string name="icon_pack_settings_class" translatable="false">com.android.launcher3.lineage.icon.IconPackSettingsFragment</string>
     <!-- Default icon pack package. Set to "android" to use default / original icons -->
     <string name="icon_pack_default_pkg" translatable="false">android</string>
+
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Suggestions</string>
+    <string name="suggestion_pref_screen_desc">For All Apps &amp; Home screen suggestions</string>
 </resources>
