@@ -24,6 +24,7 @@ import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.animation.Interpolator;
+import android.widget.EditText;
 
 import com.android.launcher3.DeviceProfile;
 import com.android.launcher3.ExtendedEditText;
@@ -241,7 +242,7 @@ public class AllAppsQsb extends QsbContainerView
             int topMargin = Math.round(Math.max(
                     -mFixedTranslationY, insets.top - mMarginTopAdjusting));
 
-            DeviceProfile dp = mLauncher.getWallpaperDeviceProfile();
+            DeviceProfile dp = mLauncher.getDeviceProfile();
             int searchPadding = getLayoutParams().height;
             int hotseatPadding = (dp.hotseatBarSizePx - dp.hotseatCellHeightPx) - searchPadding;
 
@@ -256,5 +257,10 @@ public class AllAppsQsb extends QsbContainerView
         boolean showAllApps = (visibleElements & ALL_APPS_CONTENT) != 0;
         setter.setViewAlpha(mSearchWrapperView, showAllApps ? 0f : 1f, Interpolators.LINEAR);
         setter.setViewAlpha(mFallbackSearchView, showAllApps ? 1f : 0f, Interpolators.LINEAR);
+    }
+
+    @Override
+    public EditText setTextSearchEnabled(boolean isEnabled) {
+        return mFallbackSearchView;
     }
 }
