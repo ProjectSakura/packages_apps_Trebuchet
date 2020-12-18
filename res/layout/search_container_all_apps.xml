@@ -18,8 +18,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/qsb_wrapper_height"
     android:layout_centerHorizontal="true"
-    android:layout_gravity="top|center_horizontal"
-    android:translationY="24dp">
+    android:layout_gravity="top|center_horizontal">
 
     <fragment
         android:id="@+id/search_wrapper_view"
