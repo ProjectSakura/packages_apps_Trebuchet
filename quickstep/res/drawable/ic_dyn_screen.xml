@@ -5,7 +5,7 @@
         <com.ssos.launcher.AdaptiveIconShapeDrawable
             android:width="48dp"
             android:height="48dp"
-            android:tint="@*android:color/notification_material_background_color" />
+            android:tint="@color/color_dyn_screen" />
     </item>
 
 </layer-list>
