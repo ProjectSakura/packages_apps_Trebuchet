@@ -51,7 +51,6 @@ public class SettingsActivity extends FragmentActivity
         implements OnPreferenceStartFragmentCallback, OnPreferenceStartScreenCallback,
         SharedPreferences.OnSharedPreferenceChangeListener{
 
-    private static final String SUGGESTIONS_KEY = "pref_suggestions";
     public static final String EXTRA_FRAGMENT_ARG_KEY = ":settings:fragment_args_key";
     public static final String EXTRA_SHOW_FRAGMENT_ARGS = ":settings:show_fragment_args";
     private static final int DELAY_HIGHLIGHT_DURATION_MILLIS = 600;
@@ -130,8 +129,6 @@ public class SettingsActivity extends FragmentActivity
         private String mHighLightKey;
         private boolean mPreferenceHighlighted = false;
 
-        protected static final String DPS_PACKAGE = "com.google.android.as";
-
         @Override
         public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
             final Bundle args = getArguments();
@@ -171,20 +168,7 @@ public class SettingsActivity extends FragmentActivity
          * will remove that preference from the list.
          */
         protected boolean initPreference(Preference preference) {
-            switch (preference.getKey()) {
-                case SUGGESTIONS_KEY:
-                    // Show if Device Personalization Services is present.
-                    return isDPSEnabled(getContext());
-            }
             return true;
-        }
-
-        public static boolean isDPSEnabled(Context context) {
-            try {
-                return context.getPackageManager().getApplicationInfo(DPS_PACKAGE, 0).enabled;
-            } catch (PackageManager.NameNotFoundException e) {
-                return false;
-            }
         }
 
         @Override
