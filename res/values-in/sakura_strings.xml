@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020-2021 crDroid Android Project
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="settings_title">Pengaturan</string>
+    <!-- Categories -->
+    <string name="home_category_title">Layar utama</string>
+    <string name="home_category_summary">Atur panel Google Now dan lainnya</string>
+    <string name="icons_category_title">Ikon</string>
+    <string name="icons_category_summary">Atur bentuk ikon dan yang lainnya</string>
+    <string name="app_drawer_category_title">Semua aplikasi</string>
+    <string name="app_drawer_category_summary">Kustomisasi tampilan aplikasi anda</string>
+    <string name="misc_category_title">Lain-lain</string>
+    <string name="misc_category_summary">Pilihan lain</string>
+    <string name="dev_options_title">Opsi pengembang</string>
+    <string name="dev_options_desc">Mengaktifkan fitur tersembunyi dengan risiko</string>
+    <!-- QuickSpace -->
+    <string name="show_quickspace_title">Widget beranda</string>
+    <string name="show_quickspace_summary">Tampilkan di bagian atas layar utama Anda</string>
+    <!-- QuickSpace: QuickEvent: Device Intro Event -->
+    <string name="quick_event_rom_intro_welcome">Berkreasilah sesuka anda!</string>
+    <!-- QuickSpace: QuickEvent: Ambient Play -->
+    <string name="quick_event_ambient_now_playing">Sedang diputar</string>
+    <string name="quick_event_ambient_song_artist">%1$s dari %2$s</string>
+    <!-- Quickspace Now Playing -->
+    <string name="quickspace_now_playing_title">Tampilkan yang sedang diputar</string>
+    <string name="quickspace_now_playing_summary">Menampilkan lagu yang sedang anda putar di widget beranda.</string>
+    <!-- Quickspace alternative view -->
+    <string name="quickspace_alternate_style_title">Gunakan gaya alternatif</string>
+    <string name="quickspace_alternate_style_summary">Gunakan gaya minimalis untuk widget beranda</string>
+    <!-- Icon packs -->
+    <string name="icon_pack">Paket ikon</string>
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Ketuk dua kali untuk tidur</string>
+    <string name="pref_sleep_gesture_summary">Ketuk dua kali pada ruang kosong untuk mematikan layar</string>
+    <!-- Quickspace PSA - Custom messages for the glance -->
+    <string name="quickspace_psa_title">Tampilkan pesan acak</string>
+    <string name="quickspace_psa_summary">Tampilkan beberapa pesan di widget beranda.</string>
+    <string-array name="quickspace_psa_morning">
+        <item>Selamat pagi!</item>
+        <item>Selamat pagi, waktunya bekerja!</item>
+        <item>Hari yang indah:)!</item>
+        <item>Semoga harimu menyenangkan!</item>
+        <item>Bagaimana dengan tidur siang 5 menit?</item>
+        <item>Itu adalah salah satu cara untuk bangun.</item>
+        <item>Kamu harus menganti nada dering alarm.</item>
+        <item>Sepertinya hari ini adalah hari yang indah, ya kan?</item>
+        <item>Mari kita bekerja hari ini.</item>
+        <item>Periksa cuaca untuk berjaga-jaga</item>
+        <item>Merasa sedikit mengantuk</item>
+        <item>Apakah Anda sudah melihat ke luar?</item>
+        <item>Mari kita selesaikan ini.</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>Selamat malam!</item>
+        <item>Tidurlah dengan nyenyak!</item>
+        <item>Sampai jumpa besok!</item>
+        <item>Mimpi indah!</item>
+        <item>Jangan begadang terlalu lama</item>
+        <item>Selamat tidur</item>
+        <item>Tidurlah</item>
+        <item>Waktu untuk santai</item>
+        <item>Menikmati malam!</item>
+        <item>Sudah waktunya untuk mengisi baterai!</item>
+        <item>Mungkin besok menjadi hari yang menyenangkan</item>
+        <item>Siapkan diri anda untuk besok</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>Um.. Selamat malam?</item>
+        <item>Sudah terlambat sepertinya</item>
+        <item>Anda harus memperbaiki waktu tidur</item>
+        <item>Apakah Anda lebih produktif saat ini?</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>Ketidaktahuan adalah kebahagiaan</item>
+        <item>Apakah ini waktu yang tepat untuk menginstal pembaruan?</item>
+        <item>Tentang Android 11?</item>
+        <item>Oh Hai, Apa kabar?</item>
+        <item>Fokus pada pekerjaanmu</item>
+        <item>Sudah berapa banyak tangkapan layar yang anda ambil?</item>
+        <item>Mungkin anda menyukai Project Sakura</item>
+        <item>Bagus itu relatif</item>
+        <item>Selamat bersenang-senang!</item>
+        <item>Waktu yang tepat untuk mendengakan musik</item>
+        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
+        <item>Butuh Aqua</item>
+        <item>Ingat garis keturunan Unicorn</item>
+        <item>Nikmati daya tahan baterai yang bertambah</item>
+        <item>Dimulai dari Nol yaa</item>
+        <item>Kami mencintai mu 3000</item>
+        <item>Di Rumah Aja, Biar Aman</item>
+        <item>Lakukan sesuatu yang baik hari ini</item>
+        <item>Ini hari yang menyenangkan, bukan?</item>
+        <item>Bagaimana semuanya berjalan?</item>
+        <item>Tidak ada ilusi, selamat datang ke kenyataan!</item>
+        <item>Terima kasih atas dukungan anda</item>
+        <item>Tidak ada yang bodoh - hanya pemalas!</item>
+        <item>Salah satu pilihan terbaik Buildbot</item>
+        <item>Sanitas untuk Paranoia Anda</item>
+        <item>Cobalah makanan penutup Ice Cold</item>
+        <item>Benar-benar pengalaman yang menyenangkan, bukan?</item>
+        <item>Evolusi adalah mitos, bukan?</item>
+        <item>Mau install kernel dan rom apapun, kentang ya kentang</item>
+        <item>Apa yang Anda pikirkan?</item>
+        <item>Menang Menang ....?</item>
+        <item>rm -rf \/</item>
+    </string-array>
+    <!-- Recents screen, close app -->
+    <string name="recents_close_app">Tutup aplikasi</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Nilai: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">secara default</string>
+    <string name="custom_seekbar_default_value_to_set">Nilai defaulf: <xliff:g id="v">%s</xliff:g>\nTekan lama untuk mengatur</string>
+    <string name="custom_seekbar_default_value_is_set">Nilai default telah diatur</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Ukuran ikon</string>
+    <!-- Font size -->
+    <string name="font_size_title">Ukuran huruf</string>
+    <!-- Scrim alpha in apps drawer -->
+    <string name="all_apps_background_opacity_title">Transparansi Latar Belakang</string>
+    <!-- AppInfo -->
+    <string name="app_info_subtext">Geser ke bawah untuk menutup info apl.</string>
+    <string name="app_info_version_value">%1$s (%2$d)</string>
+    <string name="placeholder_string">Memuat...</string>
+    <!-- Used for preference height loading. -->
+    <string name="app_info_source">Sumber</string>
+    <string name="app_info_source_system">Sistem</string>
+    <string name="app_info_last_update">Pembaharuan terakhir</string>
+    <string name="app_info_version">Versi</string>
+    <string name="app_info_more">Lainnya</string>
+</resources>
