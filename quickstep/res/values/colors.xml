@@ -16,5 +16,4 @@
 <resources>
     <color name="back_arrow_color_light">#FFFFFFFF</color>
     <color name="back_arrow_color_dark">#99000000</color>
-    <color name="color_dyn_screen">@*android:color/notification_material_background_color</color>
 </resources>
