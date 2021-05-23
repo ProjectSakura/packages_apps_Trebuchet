@@ -142,4 +142,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_info_last_update">Son güncelleme</string>
     <string name="app_info_version">Sürüm</string>
     <string name="app_info_more">Daha fazla</string>
+    <!-- Show dock search widget -->
+    <string name="dock_search_title">Google arama çubuğu</string>
+    <string name="dock_search_summary">Ana ekranın altında göster</string>
+    <!-- About info -->
+    <string name="about_trebuchet_summary">Trebuchet+, AOSP Launcher3 tabanlı özelleştirilmiş bir Trebuchet\'tir</string>
+    <string name="about_thanks_cat">Özel teşekkürler</string>
+    <string name="about">Hakkında</string>
+    <string name="about_summary">Ana ekran hakkında bilgi</string>
+    <string name="about_app_version">Sürüm</string>
+    <string name="about_app_version_summary">1.R</string>
 </resources>

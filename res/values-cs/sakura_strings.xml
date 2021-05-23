@@ -142,4 +142,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_info_last_update">Poslední aktualizace</string>
     <string name="app_info_version">Verze</string>
     <string name="app_info_more">Více</string>
+    <!-- Show dock search widget -->
+    <string name="dock_search_title">Vyhledávací panel Google</string>
+    <string name="dock_search_summary">Zobrazit v horní části Domovské obrazovky</string>
+    <!-- About info -->
+    <string name="about_trebuchet_summary">Trebuchet+ je upravený spouštěč Trebuchet založený na AOSP Launcher3</string>
+    <string name="about_thanks_cat">Zvláštní poděkování</string>
+    <string name="about">O</string>
+    <string name="about_summary">Informace o spouštěči</string>
+    <string name="about_app_version">Verze</string>
+    <string name="about_app_version_summary">1.R</string>
 </resources>

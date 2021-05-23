@@ -142,4 +142,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_info_last_update">Ultima actualizare</string>
     <string name="app_info_version">Versiune</string>
     <string name="app_info_more">Mai multe</string>
+    <!-- Show dock search widget -->
+    <string name="dock_search_title">Bara de căutare Google</string>
+    <string name="dock_search_summary">Arată în zona de sus a ecranului principal</string>
+    <!-- About info -->
+    <string name="about_trebuchet_summary">Trebuchet+ este un lansator Trebuchet personalizat bazat pe lansatorul AOSP3</string>
+    <string name="about_thanks_cat">Mulțumiri speciale</string>
+    <string name="about">Despre</string>
+    <string name="about_summary">Informații despre lansator</string>
+    <string name="about_app_version">Versiune</string>
+    <string name="about_app_version_summary">1,R</string>
 </resources>
