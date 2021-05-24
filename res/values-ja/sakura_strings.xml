@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020-2021 crDroid Android Project
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="settings_title">設定</string>
+    <!-- Categories -->
+    <string name="home_category_title">ホーム画面</string>
+    <string name="home_category_summary">Google Now パネルやその他の設定</string>
+    <string name="icons_category_title">アイコン</string>
+    <string name="icons_category_summary">アイコン形状などを設定する</string>
+    <string name="app_drawer_category_title">アプリドロワー</string>
+    <string name="app_drawer_category_summary">アプリドロワーを編集する</string>
+    <string name="misc_category_title">その他</string>
+    <string name="misc_category_summary">その他のオプション</string>
+    <string name="dev_options_title">開発者向けオプション</string>
+    <string name="dev_options_desc">非表示の機能を自己責任で有効にする</string>
+    <!-- QuickSpace -->
+    <string name="show_quickspace_title">At A Glance</string>
+    <string name="show_quickspace_summary">ホーム画面の上部に表示する</string>
+    <!-- QuickSpace: QuickEvent: Device Intro Event -->
+    <string name="quick_event_rom_intro_welcome">春のような気分です!</string>
+    <!-- QuickSpace: QuickEvent: Ambient Play -->
+    <string name="quick_event_ambient_now_playing">Now Playing</string>
+    <string name="quick_event_ambient_song_artist">%1$s - %2$s</string>
+    <!-- Quickspace Now Playing -->
+    <string name="quickspace_now_playing_title">再生中の項目を表示</string>
+    <string name="quickspace_now_playing_summary">At a Glance で再生中の曲を表示します。</string>
+    <!-- Quickspace alternative view -->
+    <string name="quickspace_alternate_style_title">別のスタイルを使用</string>
+    <string name="quickspace_alternate_style_summary">At A Glance に最小限なスタイルを使用する</string>
+    <!-- Icon packs -->
+    <string name="icon_pack">アイコンパック</string>
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">ダブルタップでスリープ</string>
+    <string name="pref_sleep_gesture_summary">空白領域をダブルタップしてスリープする</string>
+    <!-- Quickspace PSA - Custom messages for the glance -->
+    <string name="quickspace_psa_title">ランダムメッセージを表示</string>
+    <string name="quickspace_psa_summary">At A Glance に素敵なメッセージを表示する</string>
+    <string-array name="quickspace_psa_morning">
+        <item>おはようございます!</item>
+        <item>おはようございます、さあ始めましょう!</item>
+        <item>なんて美しい日でしょう!</item>
+        <item>良い一日を!</item>
+        <item>わずか5分間の昼寝はどうでしたか?</item>
+        <item>目を覚ます一つの方法です。</item>
+        <item>目覚まし音を変えるべきです。</item>
+        <item>今日は美しい日だと思いませんか?</item>
+        <item>今日も一日働こう!</item>
+        <item>万一の場合に備えて天気を確認しよう</item>
+        <item>少し眠く感じます</item>
+        <item>もう窓の外を見ましたか?</item>
+        <item>早く終わらせよう。</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>おやすみなさい!</item>
+        <item>よい眠りを!</item>
+        <item>また明日!</item>
+        <item>良い夢を!</item>
+        <item>夜ふかしは良くありません</item>
+        <item>よい眠りを</item>
+        <item>睡眠をとりましょう</item>
+        <item>リラックスする時間です</item>
+        <item>夜を楽しみましょう!</item>
+        <item>バッテリーを充電する時間です!</item>
+        <item>明日は素晴らしい日かもしれません</item>
+        <item>明日への覚悟を決めましょう</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>あの... お休みですか?</item>
+        <item>ちょっともう遅い時間ですね</item>
+        <item>睡眠スケジュールを修正する必要があります</item>
+        <item>今回はもっと生産的ですか?</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>無知は至福なことです</item>
+        <item>既に別のアップデートをフラッシュする時間ですか?</item>
+        <item>Android 12 に夢中ですか?</item>
+        <item>やあ、何かありましたか?</item>
+        <item>仕事に集中しましょう</item>
+        <item>スクリーンショットは何枚撮りますか?</item>
+        <item>Project Sakura みたいに男らしくなろう</item>
+        <item>Havoc ではない愛の広がり :P</item>
+        <item>お楽しみください!</item>
+        <item>良い音楽を聴く時間です</item>
+        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
+        <item>あなたには Project Sakura Premium が必要です</item>
+        <item>Unicorn の Lineage を覚えておいて下さい</item>
+        <item>Xtended なバッテリー寿命をお楽しみ下さい</item>
+        <item>Ground Zero から始めます</item>
+        <item>あなたを愛しています 3000</item>
+        <item>ステイホーム、ステイセーフ。</item>
+        <item>今日は素敵なことをしましょう</item>
+        <item>こんにちは、いい天気ですね。</item>
+        <item>調子はどうですか?</item>
+        <item>幻想ではありません。リアルへようこそ!</item>
+        <item>ご協力ありがとうございます</item>
+        <item>Derp のための祭りではありません - 唯一の完璧さ!</item>
+        <item>ビルドボットの最高の選択の1つです</item>
+        <item>パラノイアの正気</item>
+        <item>Ice Cold なデザートをお試しください</item>
+        <item>なんて素敵な経験でしょう？</item>
+        <item>Evolution は神話ですよね?</item>
+        <item>何をフラッシュするかですが、Potato はやめましょう。</item>
+        <item>今の気持ちは?</item>
+        <item>勝者の勝者…?</item>
+        <item>rm -rf \/</item>
+    </string-array>
+    <!-- Recents screen, close app -->
+    <string name="recents_close_app">アプリを閉じる</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">値: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">(既定)</string>
+    <string name="custom_seekbar_default_value_to_set">既定値: <xliff:g id="v">%s</xliff:g>\n長押しで設定</string>
+    <string name="custom_seekbar_default_value_is_set">既定値が設定されています</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">アイコンサイズ</string>
+    <!-- Font size -->
+    <string name="font_size_title">フォントサイズ</string>
+    <!-- Scrim alpha in apps drawer -->
+    <string name="all_apps_background_opacity_title">背景の透明度</string>
+    <!-- AppInfo -->
+    <string name="app_info_subtext">下にスワイプしてアプリ情報を閉じます</string>
+    <string name="app_info_version_value">%1$s (%2$d)</string>
+    <string name="placeholder_string">読み込んでいます...</string>
+    <!-- Used for preference height loading. -->
+    <string name="app_info_source">ソース</string>
+    <string name="app_info_source_system">システム</string>
+    <string name="app_info_last_update">最終更新</string>
+    <string name="app_info_version">バージョン</string>
+    <string name="app_info_more">詳細</string>
+    <!-- Show dock search widget -->
+    <string name="dock_search_title">Google 検索バー</string>
+    <string name="dock_search_summary">ホーム画面の下部に表示する</string>
+    <!-- About info -->
+    <string name="about_trebuchet_summary">Trebuchet+ は AOSP の Launcher3 に基づくカスタマイズされた Trebuchet ランチャーです</string>
+    <string name="about_thanks_cat">スペシャルサンクス</string>
+    <string name="about">詳細</string>
+    <string name="about_summary">ランチャーに関する情報</string>
+    <string name="about_app_version">バージョン</string>
+    <string name="about_app_version_summary">1.R</string>
+</resources>
