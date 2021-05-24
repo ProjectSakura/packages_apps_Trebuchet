@@ -142,4 +142,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_info_last_update">Pembaharuan terakhir</string>
     <string name="app_info_version">Versi</string>
     <string name="app_info_more">Lainnya</string>
+    <!-- Show dock search widget -->
+    <string name="dock_search_title">Bilah pencarian Google</string>
+    <string name="dock_search_summary">Tampilkan di bagian bawah layar utama Anda</string>
+    <!-- About info -->
+    <string name="about_trebuchet_summary">Trebuchet+ adalah peluncur Trebuchet yang dikustomisasi berdasarkan AOSP Launcher3</string>
+    <string name="about_thanks_cat">Terima kasih khusus kepada</string>
+    <string name="about">Tentang</string>
+    <string name="about_summary">Informasi tentang peluncur</string>
+    <string name="about_app_version">Versi</string>
+    <string name="about_app_version_summary">1.R</string>
 </resources>

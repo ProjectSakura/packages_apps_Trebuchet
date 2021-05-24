@@ -142,4 +142,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_info_last_update">Última atualização</string>
     <string name="app_info_version">Versão</string>
     <string name="app_info_more">Mais</string>
+    <!-- Show dock search widget -->
+    <string name="dock_search_title">Barra de pesquisa do Google</string>
+    <string name="dock_search_summary">Mostrar no rodapé da sua tela inicial</string>
+    <!-- About info -->
+    <string name="about_trebuchet_summary">Trebuchet+ é um launcher de Trebuchet personalizado baseado no Launcher3 do AOSP</string>
+    <string name="about_thanks_cat">Agradecimentos especiais a</string>
+    <string name="about">Sobre</string>
+    <string name="about_summary">Informações sobre o launcher</string>
+    <string name="about_app_version">Versão</string>
+    <string name="about_app_version_summary">1.R</string>
 </resources>

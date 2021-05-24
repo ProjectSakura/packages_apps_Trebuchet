@@ -142,4 +142,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_info_last_update">Последнее обновление</string>
     <string name="app_info_version">Версия</string>
     <string name="app_info_more">Подробнее</string>
+    <!-- Show dock search widget -->
+    <string name="dock_search_title">Найти в Google</string>
+    <string name="dock_search_summary">Показывать в нижней части домашнего экрана</string>
+    <!-- About info -->
+    <string name="about_trebuchet_summary">Trebuchet+ это настраиваемый лаунчер Trebuchet, основанный на лаунчере Launcher3</string>
+    <string name="about_thanks_cat">Особая благодарность</string>
+    <string name="about">О приложении</string>
+    <string name="about_summary">Информация о лаунчере</string>
+    <string name="about_app_version">Версия</string>
+    <string name="about_app_version_summary">1.R</string>
 </resources>

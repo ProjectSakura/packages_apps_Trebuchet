@@ -35,7 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="quick_event_rom_intro_welcome">מרגיש כמו אביב!</string>
     <!-- QuickSpace: QuickEvent: Ambient Play -->
     <string name="quick_event_ambient_now_playing">מתנגן כעת</string>
-    <string name="quick_event_ambient_song_artist">%1$s על־ידי %2$s</string>
+    <string name="quick_event_ambient_song_artist">%1$s של %2$s</string>
     <!-- Quickspace Now Playing -->
     <string name="quickspace_now_playing_title">הצג מה מתנגן כעת</string>
     <string name="quickspace_now_playing_summary">הצג את השיר שמתנגן ביישומון \'בקצרה\'.</string>
@@ -58,10 +58,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>מה לגבי שנ\"צ של חמש דקות?</item>
         <item>זו דרך אחת להתעורר.</item>
         <item>אתה צריך לשנות את הצליל של השעון המעורר שלך.</item>
-        <item>נראה שזה יום יפה בחוץ, לא?</item>
+        <item>נראה שזה יום יפה, לא?</item>
         <item>עוד יום, עוד עשר אגורות.</item>
-        <item>בדוק את מזג האוויר לכל מקרה</item>
-        <item>מרגיש קצת ישנוני עדיין</item>
+        <item>בדוק את מזג האוויר – לכל מקרה</item>
+        <item>מרגיש קצת ישנוני עדיין, אה?</item>
         <item>הסתכלת כבר החוצה?</item>
         <item>בוא נעשה את זה.</item>
     </string-array>
@@ -70,7 +70,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>שינה טובה!</item>
         <item>נתראה מחר!</item>
         <item>חלומות מתוקים!</item>
-        <item>אל תשאר ער עד מאוחר</item>
+        <item>אל תישאר ער עד מאוחר</item>
         <item>שתהיה לך שינה טובה</item>
         <item>תישן קצת</item>
         <item>זמן להירגע</item>
@@ -80,10 +80,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>תכין את העצמות שלך למחר</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
-        <item>אמ...לילה טוב?</item>
+        <item>אממ...לילה טוב?</item>
         <item>קצת מאוחר עכשיו</item>
         <item>אתה צריך לסדר את זמני השינה שלך</item>
-        <item>האם אתה פרודוקטיבי יותר בשלב זה?</item>
+        <item>האם אתה יעיל יותר בשלב זה?</item>
     </string-array>
     <string-array name="quickspace_psa_random">
         <item>בורות היא אושר</item>
@@ -93,10 +93,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>התמקד במשימות שלך</item>
         <item>כמה צילומי מסך אתה מצלם?</item>
         <item>תהיה גבר־על כמו פרויקט Sakura</item>
-        <item>הפיצו אהבה – לא הרס :)</item>
+        <item>תפיץ אהבה – לא שנאה :)</item>
         <item>תיהנו!</item>
         <item>הגיע הזמן לקצת מוזיקה טובה</item>
-        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
+        <item>אופק, אתה המלך!</item>
         <item>אתה צריך להיות חבר פרימיום בפרויקט Sakura</item>
         <item>זכור מאין הגעת ולאן אתה הולך</item>
         <item>תיהנה מחיי סוללה מטורפים</item>
@@ -108,7 +108,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>איך הכול הולך?</item>
         <item>בלי אשליות, ברוכים הבאים למציאות!</item>
         <item>תודה על תמיכתך</item>
-        <item>מוזרים לא נכנסים למסיבה שלנו – רק מושלמים!</item>
+        <item>קח את הקרשים שלך – אתה לא עושה איתנו ל\"ג בעומר!</item>
         <item>אחת הבחירות הטובות שלנו</item>
         <item>קח קצת שפיות בשביל הפרנויה שלך</item>
         <item>קרח זורם לך בוורידים</item>
@@ -117,7 +117,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>אתה מה שאתה, אל תשתנה</item>
         <item>על מה אתה חושב?</item>
         <item>אס זוכה קינג בוכה?</item>
-        <item>rm -rf \/</item>
+        <item>עוף על החיים שלך</item>
     </string-array>
     <!-- Recents screen, close app -->
     <string name="recents_close_app">סגור יישום</string>
@@ -142,4 +142,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_info_last_update">עדכון אחרון</string>
     <string name="app_info_version">גרסה</string>
     <string name="app_info_more">עוד</string>
+    <!-- Show dock search widget -->
+    <string name="dock_search_title">סרגל החיפוש של Google</string>
+    <string name="dock_search_summary">הצג בקצה התחתון של מסך הבית שלך</string>
+    <!-- About info -->
+    <string name="about_trebuchet_summary">Trebuchet+ הוא משגר אפליקציות בהתאמה אישית המבוסס על Launcher3 של פרויקט הקוד הפתוח של Android</string>
+    <string name="about_thanks_cat">תודות מיוחדות ל</string>
+    <string name="about">אודות</string>
+    <string name="about_summary">מידע אודות משגר האפליקציות</string>
+    <string name="about_app_version">גרסה</string>
+    <string name="about_app_version_summary">1.R</string>
 </resources>
