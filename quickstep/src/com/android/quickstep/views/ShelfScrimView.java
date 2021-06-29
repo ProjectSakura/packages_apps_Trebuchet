@@ -261,7 +261,7 @@ public class ShelfScrimView extends ScrimView<BaseQuickstepLauncher>
 
     @Override
     protected boolean shouldDragHandleBeVisible() {
-        return false;
+        return true;
     }
 
     @Override
