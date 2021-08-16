@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020-2021 crDroid Android Project
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="settings_title">Asetukset</string>
+    <!-- Categories -->
+    <string name="home_category_title">Aloitusnäyttö</string>
+    <string name="home_category_summary">Määritä Google Now -paneeli ja paljon muuta</string>
+    <string name="icons_category_title">Kuvakkeet</string>
+    <string name="icons_category_summary">Aseta kuvakkeen muoto ja paljon muuta</string>
+    <string name="app_drawer_category_title">Sovellusvalikko</string>
+    <string name="app_drawer_category_summary">Muokkaa sovellusvalikkoa</string>
+    <string name="misc_category_title">Sekalaiset</string>
+    <string name="misc_category_summary">Muut asetukset</string>
+    <string name="dev_options_title">Kehittäjäasetukset</string>
+    <string name="dev_options_desc">Ota käyttöön joitain piilotettuja ominaisuuksia omalla vastuullasi</string>
+    <!-- QuickSpace -->
+    <string name="show_quickspace_title">Pikanäkymä</string>
+    <string name="show_quickspace_summary">Näytä aloitusnäytön yläpuolella</string>
+    <!-- QuickSpace: QuickEvent: Device Intro Event -->
+    <string name="quick_event_rom_intro_welcome">Tuntuu keväältä!</string>
+    <!-- QuickSpace: QuickEvent: Ambient Play -->
+    <string name="quick_event_ambient_now_playing">Nyt soi</string>
+    <string name="quick_event_ambient_song_artist">%1$s / %2$s</string>
+    <!-- Quickspace Now Playing -->
+    <string name="quickspace_now_playing_title">Näytä nyt soitossa</string>
+    <string name="quickspace_now_playing_summary">Näytä soitettava kappale pikanäytössä.</string>
+    <!-- Quickspace alternative view -->
+    <string name="quickspace_alternate_style_title">Käytä vaihtoehtoista tyyliä</string>
+    <string name="quickspace_alternate_style_summary">Käytä pelkistettyä tyyliä pikanäytössä</string>
+    <!-- Icon packs -->
+    <string name="icon_pack">Kuvakepaketti</string>
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Lepotila kaksoisnapautuksella</string>
+    <string name="pref_sleep_gesture_summary">Kaksoisnapauta tyhjää tilaa katkaistaksesi virran</string>
+    <!-- Quickspace PSA - Custom messages for the glance -->
+    <string name="quickspace_psa_title">Näytä satunnainen viesti</string>
+    <string name="quickspace_psa_summary">Näytä väliajoin jokin kiva viesti pikanäytössä.</string>
+    <string-array name="quickspace_psa_morning">
+        <item>Ohayo Gozaimasu!</item>
+        <item>Hyvää huomenta, aika rokata!</item>
+        <item>Harjoituksia ei kannata jättää väliin.</item>
+        <item>Hauskaa päivän jatkoa!</item>
+        <item>Miten olisi pienet 5 minuutin nokoset?</item>
+        <item>Se on yksi tapa herätä.</item>
+        <item>Sinun pitäisi muuttaa hälytysääniäsi.</item>
+        <item>Näyttää siltä, että on kaunis päivä, eikö niin?</item>
+        <item>Jatketaanpa hommia.</item>
+        <item>Tarkista sää siltä varalta, että ihastuksesi tarvitsee sateenvarjon.</item>
+        <item>Tuntuu vielä vähän uniselta</item>
+        <item>Oletko katsonut vielä ulos?</item>
+        <item>Tehdään tämä valmiiksi.</item>
+    </string-array>
+    <string-array name="quickspace_psa_evening">
+        <item>Hyvää yötä!</item>
+        <item>Nuku hyvin!</item>
+        <item>Nähdään huomenna!</item>
+        <item>Kauniita unia!</item>
+        <item>Älä valvo liian myöhään</item>
+        <item>Nuku hyvin</item>
+        <item>Mene nukkumaan</item>
+        <item>Aika rentoutua</item>
+        <item>Nauti yöstä! Yksin...</item>
+        <item>Aika ladata akut!</item>
+        <item>Huomenna on kaikki hyvin, koska olen täällä!</item>
+        <item>Palaudu huomiseksi</item>
+    </string-array>
+    <string-array name="quickspace_psa_midnight">
+        <item>Hmm... hyvää yötä?</item>
+        <item>Nyt on jo vähän myöhä</item>
+        <item>Näin haamun sängyn alla x_x</item>
+        <item>Oletko tuottavampi tällä hetkellä?</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>Tietämättömyys on autuutta</item>
+        <item>Onko jo aika asentaa toinen päivitys?</item>
+        <item>Oletko kiinnostunut Android 12:sta?</item>
+        <item>Ai hei, mitä kuuluu?</item>
+        <item>Keskity tehtäviisi</item>
+        <item>Kuinka monta kuvakaappausta otat?</item>
+        <item>Hän ei sano kyllä xD</item>
+        <item>Levitä rakkautta, älä tuhoa :P</item>
+        <item>Pidä hauskaa!</item>
+        <item>Aika kuunnella hyvää musiikkia</item>
+        <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
+        <item>Tarvitset Project Sakura Premiumin</item>
+        <item>Muista yksisarvisen linja</item>
+        <item>Nauti pidennetystä akun kestosta</item>
+        <item>Alkaen nollasta</item>
+        <item>Käytätkö Project Sakuraa? Pahus, olet ylivoimainen</item>
+        <item>Pysy kotona, pysy turvassa</item>
+        <item>Tee jotain mukavaa tänään</item>
+        <item>Hei, on mukava päivä, eikö olekin?</item>
+        <item>Miten kaikki sujuu?</item>
+        <item>Ei illuusioita, tervetuloa todellisuuteen!</item>
+        <item>Kiitos tuestasi</item>
+        <item>Ei juhlaa urpoille - vain täydellisyys!</item>
+        <item>Yksi buildbotin parhaista valinnoista</item>
+        <item>Järki vainoharhaisuudellesi</item>
+        <item>Kokeile Ice Cold -jälkiruokia</item>
+        <item>Mikä ihana kokemus, eikö olekin?</item>
+        <item>Evoluutio on myytti, eikö?</item>
+        <item>Olet mitä asennat, älä ole peruna</item>
+        <item>Mitä sinulla on mielessäsi?</item>
+        <item>Pelaatko taas sitä typerää peliä?</item>
+        <item>rm -rf \/</item>
+    </string-array>
+    <!-- Recents screen, close app -->
+    <string name="recents_close_app">Sulje sovellus</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Arvo: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">oletuksena</string>
+    <string name="custom_seekbar_default_value_to_set">Oletusarvo: <xliff:g id="v">%s</xliff:g>\nAseta napauttamalla pitkään</string>
+    <string name="custom_seekbar_default_value_is_set">Oletusarvo on asetettu</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Kuvakkeen koko</string>
+    <!-- Font size -->
+    <string name="font_size_title">Kirjasimen koko</string>
+    <!-- Scrim alpha in apps drawer -->
+    <string name="all_apps_background_opacity_title">Taustan läpinäkyvyys</string>
+    <!-- AppInfo -->
+    <string name="app_info_subtext">Sulje sovellustiedot pyyhkäisemällä alas.</string>
+    <string name="app_info_version_value">%1$s (%2$d)</string>
+    <string name="placeholder_string">Ladataan...</string>
+    <!-- Used for preference height loading. -->
+    <string name="app_info_source">Lähde</string>
+    <string name="app_info_source_system">Järjestelmä</string>
+    <string name="app_info_last_update">Päivitetty viimeksi</string>
+    <string name="app_info_version">Versio</string>
+    <string name="app_info_more">Lisää</string>
+    <!-- Show dock search widget -->
+    <string name="dock_search_title">Google-hakupalkki</string>
+    <string name="dock_search_summary">Näytä aloitusnäytön alaosassa</string>
+    <!-- About info -->
+    <string name="about_trebuchet_summary">Trebuchet+ on räätälöity Trebuchet-käynnistin, joka perustuu AOSP:n Launcher3:een</string>
+    <string name="about_thanks_cat">Erityiskiitokset</string>
+    <string name="about">Tietoja</string>
+    <string name="about_summary">Tietoja käynnistimestä</string>
+    <string name="about_app_version">Versio</string>
+    <string name="about_app_version_summary">1.R</string>
+</resources>

@@ -51,16 +51,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="quickspace_psa_title">Показывать случайное сообщение</string>
     <string name="quickspace_psa_summary">Показывать иногда некоторые приятные сообщения на виджете At a Glance.</string>
     <string-array name="quickspace_psa_morning">
-        <item>Доброе утро!</item>
+        <item>Ohayo Gozaimasu!</item>
         <item>Доброе утро, время зажигать!</item>
-        <item>Какой чудесный день!</item>
+        <item>Вам не следует пропускать упражнения.</item>
         <item>Хорошего дня!</item>
         <item>Как насчет небольшого 5-минутного перерыва?</item>
         <item>Это один из способов проснуться.</item>
         <item>Вы должны изменить звук вашего будильника.</item>
         <item>Похоже, это прекрасный день, не так ли?</item>
         <item>Возьми этот хлеб.</item>
-        <item>Проверь погоду на всякий случай</item>
+        <item>Проверьте погоду на всякий случай, если вашему избраннику понадобится зонтик.</item>
         <item>Ещё чувствуешь себя немного сонным</item>
         <item>Вы уже смотрели на улицу?</item>
         <item>Давайте сделаем это.</item>
@@ -74,15 +74,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Хорошего сна</item>
         <item>Пора спать</item>
         <item>Время расслабиться</item>
-        <item>Приятной ночи!</item>
+        <item>Наслаждайтесь ночью! Один...</item>
         <item>Время зарядить батарею!</item>
-        <item>Завтра может быть отличный день</item>
+        <item>Завтра все будет хорошо, потому что я здесь!</item>
         <item>Готовь свои кости к завтрашнему дню</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
         <item>Эм... спокойной ночи?</item>
         <item>Сейчас уже немного поздно</item>
-        <item>Вы должны исправить свой режим сна</item>
+        <item>Я увидел призрак под кроватью x_x</item>
         <item>Вы более продуктивны в это время?</item>
     </string-array>
     <string-array name="quickspace_psa_random">
@@ -92,7 +92,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>О, привет, как дела?</item>
         <item>Сосредоточьтесь на своих задачах</item>
         <item>Сколько скриншотов вы делаете?</item>
-        <item>Будьте чадом, как Project Sakura</item>
+        <item>Она не скажет \"да\" xD</item>
         <item>Распространяйте любовь, а не хаос</item>
         <item>Веселитесь!</item>
         <item>Время для хорошей музыки</item>
@@ -101,7 +101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Помни родословную Lineage</item>
         <item>Автономность как на Xtended</item>
         <item>Начиная с нуля</item>
-        <item>Мы любим вас, нас уже больше 3000</item>
+        <item>Используете проект Сакура? Черт возьми, ты выше всех</item>
         <item>Оставайтесь домой и будьте в безопасности</item>
         <item>Сделайте сегодня что-то приятное</item>
         <item>Здравствуйте, там хороший день, не так ли?</item>
@@ -116,7 +116,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Эволюция является мифом, правда?</item>
         <item>Ты - это то что ты прошиваешь, не будь овощем</item>
         <item>О чём думаете?</item>
-        <item>Победитель, Победитель ....?</item>
+        <item>Опять играешь в эту дурацкую игру?</item>
         <item>rm -rf \/</item>
     </string-array>
     <!-- Recents screen, close app -->

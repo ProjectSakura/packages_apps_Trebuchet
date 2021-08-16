@@ -53,14 +53,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string-array name="quickspace_psa_morning">
         <item>Günaydın!</item>
         <item>Günaydın, rock zamanı!</item>
-        <item>Ne kadar güzel bir gün!</item>
+        <item>Egzersizleri atlamamalısınız.</item>
         <item>İyi günler!</item>
         <item>5 dakikalık küçük bir şekerlemeye nedersin?</item>
         <item>Uyanmanın yollarından biri de bu.</item>
         <item>Alarm seslerini değiştirmelisin.</item>
         <item>Güzel bir gün gibi görünüyor, değil mi?</item>
         <item>Hadi bu ekmeği alalım.</item>
-        <item>Ne olur ne olmaz hava durumunu kontrol et</item>
+        <item>Aşkınızın bir şemsiyeye ihtiyacı olması durumunda hava durumunu kontrol edin.</item>
         <item>Henüz biraz uykulu hissediyorum</item>
         <item>Henüz dışarıya baktın mı?</item>
         <item>Haydi bunu bitirelim.</item>
@@ -74,15 +74,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>İyi uykular</item>
         <item>Biraz uyu</item>
         <item>Rahatlama zamanı</item>
-        <item>Gecenin tadını çıkar!</item>
+        <item>Gecenin tadını çıkart! Sadece...</item>
         <item>Bataryaları şarj etme zamanı!</item>
-        <item>Yarın harika bir gün olabilir</item>
+        <item>Yarın her şey güzel olacak çünkü ben buradayım!</item>
         <item>Kemiklerini yarın için hazırla</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
         <item>Um... iyi geceler?</item>
         <item>Biraz geç oldu</item>
-        <item>Uyku programını düzeltmelisin</item>
+        <item>Yatağın altında bir hayalet gördüm x_x</item>
         <item>Bu saatlerde daha üretken misin?</item>
     </string-array>
     <string-array name="quickspace_psa_random">
@@ -92,7 +92,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Oh hey, n\'aber?</item>
         <item>Görevlerine odaklan</item>
         <item>Kaç tane ekran görüntüsü alıyorsun?</item>
-        <item>Project Sakura gibi bir chad ol</item>
+        <item>Evet demeyecek xD</item>
         <item>Aşk yay, havoc değil :P</item>
         <item>İyi eğlenceler!</item>
         <item>Birkaç iyi müzik zamanı</item>
@@ -101,7 +101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Tek Boynuzlu At Lineage\'ini Hatırla</item>
         <item>Xtended pil ömrünün keyfini çıkarın</item>
         <item>Sıfırdan başlayarak</item>
-        <item>Seni 3000 kere seviyoruz</item>
+        <item>Project Sakura\'yı kullanıyorsunuz? Lanet olsun sen üstünsün</item>
         <item>Evde Kal, Güvende Kal</item>
         <item>Bugün güzel birşeyler yap</item>
         <item>Merhaba güzel bir gün, değil mi?</item>
@@ -116,7 +116,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Evolution bir efsanedir, değil mi?</item>
         <item>Ne yüklersen osun, Potato olma</item>
         <item>Aklından ne geçiyor?</item>
-        <item>Winner Winner ....?</item>
+        <item>Yine o aptal oyunu mu oynuyorsun?</item>
         <item>rm -rf \/</item>
     </string-array>
     <!-- Recents screen, close app -->
