@@ -53,14 +53,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string-array name="quickspace_psa_morning">
         <item>おはようございます!</item>
         <item>おはようございます、さあ始めましょう!</item>
-        <item>なんて美しい日でしょう!</item>
+        <item>運動をさぼってはいけません。</item>
         <item>良い一日を!</item>
         <item>わずか5分間の昼寝はどうでしたか?</item>
         <item>目を覚ます一つの方法です。</item>
         <item>目覚まし音を変えるべきです。</item>
         <item>今日は美しい日だと思いませんか?</item>
         <item>今日も一日働こう!</item>
-        <item>万一の場合に備えて天気を確認しよう</item>
+        <item>ときめきが雨傘を求める場合に備えて天気を確認しましょう。</item>
         <item>少し眠く感じます</item>
         <item>もう窓の外を見ましたか?</item>
         <item>早く終わらせよう。</item>
@@ -74,15 +74,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>よい眠りを</item>
         <item>睡眠をとりましょう</item>
         <item>リラックスする時間です</item>
-        <item>夜を楽しみましょう!</item>
+        <item>夜をお楽しみ下さい! 一人でね...</item>
         <item>バッテリーを充電する時間です!</item>
-        <item>明日は素晴らしい日かもしれません</item>
+        <item>私がいるから明日はずっといい日でしょう!</item>
         <item>明日への覚悟を決めましょう</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
         <item>あの... お休みですか?</item>
         <item>ちょっともう遅い時間ですね</item>
-        <item>睡眠スケジュールを修正する必要があります</item>
+        <item>ベッドの下に幽霊を見ました x_x</item>
         <item>今回はもっと生産的ですか?</item>
     </string-array>
     <string-array name="quickspace_psa_random">
@@ -92,7 +92,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>やあ、何かありましたか?</item>
         <item>仕事に集中しましょう</item>
         <item>スクリーンショットは何枚撮りますか?</item>
-        <item>Project Sakura みたいに男らしくなろう</item>
+        <item>彼女ははいと答えないでしょうね XD</item>
         <item>Havoc ではない愛の広がり :P</item>
         <item>お楽しみください!</item>
         <item>良い音楽を聴く時間です</item>
@@ -101,7 +101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Unicorn の Lineage を覚えておいて下さい</item>
         <item>Xtended なバッテリー寿命をお楽しみ下さい</item>
         <item>Ground Zero から始めます</item>
-        <item>あなたを愛しています 3000</item>
+        <item>Project Sakura を使用中ですか? うーんあなたは素晴らしい。</item>
         <item>ステイホーム、ステイセーフ。</item>
         <item>今日は素敵なことをしましょう</item>
         <item>こんにちは、いい天気ですね。</item>
@@ -116,7 +116,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Evolution は神話ですよね?</item>
         <item>何をフラッシュするかですが、Potato はやめましょう。</item>
         <item>今の気持ちは?</item>
-        <item>勝者の勝者…?</item>
+        <item>またそのしょうもないゲームをしているんですか?</item>
         <item>rm -rf \/</item>
     </string-array>
     <!-- Recents screen, close app -->

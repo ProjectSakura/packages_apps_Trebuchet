@@ -51,16 +51,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="quickspace_psa_title">Hiển thị một thông điệp ngẫu nhiên</string>
     <string name="quickspace_psa_summary">Đôi khi hiển thị một số thông điệp tốt đẹp trên Xem nhanh.</string>
     <string-array name="quickspace_psa_morning">
-        <item>Chào buổi sáng!</item>
+        <item>Ohayo Gozaimasu!</item>
         <item>Chào buổi sáng, đến giờ quẩy rồi!</item>
-        <item>Thật là một ngày đẹp trời!</item>
+        <item>Bạn không nên bỏ qua các bài tập.</item>
         <item>Chúc bạn một ngày tốt lành!</item>
         <item>Một giấc ngủ ngắn 5 phút thì sao?</item>
         <item>Đó là một cách để thức dậy.</item>
         <item>Bạn nên thay đổi âm thanh báo thức của mình.</item>
         <item>Có vẻ như đó là một ngày đẹp trời, phải không?</item>
         <item>Hãy lấy bánh mì này.</item>
-        <item>Kiểm tra thời tiết cẩn thận</item>
+        <item>Kiểm tra thời tiết đề phòng người bạn thích cần một chiếc ô.</item>
         <item>Cảm thấy hơi buồn ngủ</item>
         <item>Bạn đã thử nhìn ra ngoài chưa?</item>
         <item>Hãy hoàn thành nó.</item>
@@ -74,15 +74,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Có một giấc ngủ ngon</item>
         <item>Có được một giấc ngủ</item>
         <item>Đến giờ giải lao rồi</item>
-        <item>Tận hưởng buổi tối!</item>
+        <item>Tận hưởng buổi tối! Một mình...</item>
         <item>Đã đến lúc sạc pin!</item>
-        <item>Ngày mai có thể là một ngày tuyệt vời</item>
+        <item>Mọi chuyện sẽ tốt đẹp vào ngày mai vì có tôi ở đây!</item>
         <item>Chuẩn bị sẵn sàng cho ngày mai</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
         <item>Ừm... chúc ngủ ngon?</item>
         <item>Bây giờ hơi muộn</item>
-        <item>Bạn nên chỉnh sửa lịch ngủ của mình</item>
+        <item>Tôi nhìn thấy một con ma dưới giường x_x</item>
         <item>Bạn có năng suất hơn vào thời điểm này?</item>
     </string-array>
     <string-array name="quickspace_psa_random">
@@ -92,7 +92,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Oh này, có chuyện gì thế?</item>
         <item>Hãy tập chung vào nhiệm vụ</item>
         <item>Bạn chụp bao nhiêu ảnh chụp màn hình?</item>
-        <item>Hãy là một con cá hồng như Project Sakura </item>
+        <item>Cô ấy sẽ không nói có xD</item>
         <item>Lan tỏa tình yêu thương không tàn phá</item>
         <item>Chúc vui vẻ!</item>
         <item>Khoảng thời gian cho một số bản nhạc hay</item>
@@ -101,7 +101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Hãy nhớ Lineage của Unicorn</item>
         <item>Tận hưởng thời lượng pin dài hơn</item>
         <item>Bắt đầu từ con số 0</item>
-        <item>We love you 3000</item>
+        <item>Sử dụng Project Sakura? Chết tiệt bạn là cấp trên</item>
         <item>Ở nhà, Giữ an toàn</item>
         <item>Làm điều gì đó tốt đẹp hôm nay</item>
         <item>Xin chào, một ngày tốt lành, phải không?</item>
@@ -116,7 +116,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Tiến hóa là một huyền thoại, phải không?</item>
         <item>Bạn là thứ bạn nghĩ sượt qua, đừng là củ khoai tây</item>
         <item>Bạn đang nghĩ gì?</item>
-        <item>Người chiến thắng Người chiến thắng ....?</item>
+        <item>Chơi trò ngu ngốc đó một lần nữa?</item>
         <item>rm -rf \/</item>
     </string-array>
     <!-- Recents screen, close app -->

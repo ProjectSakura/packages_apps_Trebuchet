@@ -53,14 +53,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string-array name="quickspace_psa_morning">
         <item>Selamat pagi!</item>
         <item>Selamat pagi, waktunya bekerja!</item>
-        <item>Sungguh hari yang indah!</item>
+        <item>Anda tidak boleh melewatkan latihan.</item>
         <item>Semoga harimu menyenangkan!</item>
         <item>Bagaimana dengan tidur siang 5 menit?</item>
         <item>Itu adalah salah satu cara untuk bangun.</item>
         <item>Kamu harus menganti nada dering alarm.</item>
         <item>Sepertinya ini hari yang indah, bukan?</item>
         <item>Mari kita bekerja hari ini.</item>
-        <item>Periksa cuaca untuk berjaga-jaga</item>
+        <item>Periksa cuaca untuk berjaga-jaga jika orang yang Anda sukai membutuhkan payung.</item>
         <item>Merasa sedikit mengantuk</item>
         <item>Apakah Anda sudah melihat ke luar?</item>
         <item>Mari kita selesaikan ini.</item>
@@ -74,15 +74,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Selamat tidur</item>
         <item>Tidurlah</item>
         <item>Waktu untuk santai</item>
-        <item>Menikmati malam!</item>
+        <item>Menikmati malam! Sendiri...</item>
         <item>Sudah waktunya untuk mengisi baterai!</item>
-        <item>Mungkin besok menjadi hari yang menyenangkan</item>
+        <item>Semuanya akan baik-baik saja besok karena saya di sini!</item>
         <item>Siapkan tulang Anda untuk besok</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
         <item>Um.. Selamat malam?</item>
         <item>Sudah terlambat sepertinya</item>
-        <item>Anda harus memperbaiki waktu tidur</item>
+        <item>Saya melihat hantu di bawah tempat tidur x_x</item>
         <item>Apakah Anda lebih produktif saat ini?</item>
     </string-array>
     <string-array name="quickspace_psa_random">
@@ -92,7 +92,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Oh Hai, Apa kabar?</item>
         <item>Fokus pada pekerjaanmu</item>
         <item>Sudah berapa banyak tangkapan layar yang Anda ambil?</item>
-        <item>Jadilah seorang pria seperti Project Sakura</item>
+        <item>Dia tidak akan mengatakan ya xD</item>
         <item>Sebarkan cinta bukan malapetaka :P</item>
         <item>Selamat bersenang-senang!</item>
         <item>Waktu yang tepat untuk mendengakan musik</item>
@@ -101,7 +101,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Ingat garis keturunan Unicorn</item>
         <item>Nikmati daya tahan baterai yang bertambah</item>
         <item>Mulai dari titik nol</item>
-        <item>Kami mencintai mu 3000</item>
+        <item>Menggunakan Project Sakura? Sialan kamu lebih unggul</item>
         <item>Tetap di rumah, tetap aman</item>
         <item>Lakukan sesuatu yang baik hari ini</item>
         <item>Ini hari yang menyenangkan, bukan?</item>
@@ -116,7 +116,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <item>Evolusi adalah mitos, bukan?</item>
         <item>Anda adalah apa yang Anda flash, jangan menjadi Kentang</item>
         <item>Apa yang Anda pikirkan?</item>
-        <item>Menang Menang ....?</item>
+        <item>Memainkan permainan bodoh itu lagi?</item>
         <item>rm -rf \/</item>
     </string-array>
     <!-- Recents screen, close app -->
