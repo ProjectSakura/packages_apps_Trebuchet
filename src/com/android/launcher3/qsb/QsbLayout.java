@@ -38,19 +38,7 @@ public class QsbLayout extends FrameLayout {
     protected void onFinishInflate() {
         super.onFinishInflate();
         assistantIcon = findViewById(R.id.mic_icon);
-        gIcon = findViewById(R.id.g_icon);
-        lensIcon = findViewById(R.id.lens_icon);
-
-        if (Utilities.isThemedIconsEnabled(mContext)) {
-            assistantIcon.setImageResource(R.drawable.ic_mic_themed);
-            gIcon.setImageResource(R.drawable.ic_super_g_themed);
-            lensIcon.setImageResource(R.drawable.ic_lens_themed);
-        } else {
-            assistantIcon.setImageResource(R.drawable.ic_mic_color);
-            gIcon.setImageResource(R.drawable.ic_super_g_color);
-            lensIcon.setImageResource(R.drawable.ic_lens_color);
-        }
-
+        assistantIcon.setIcon();
         String searchPackage = QsbContainerView.getSearchWidgetPackageName(mContext);
         setOnClickListener(view -> {
             mContext.startActivity(new Intent("android.search.action.GLOBAL_SEARCH").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK |
@@ -81,7 +69,9 @@ public class QsbLayout extends FrameLayout {
     }
 
     private void setupLensIcon() {
+        lensIcon = findViewById(R.id.lens_icon);
         lensIcon.setVisibility(View.VISIBLE);
+        lensIcon.setImageResource(R.drawable.ic_lens_color);
         lensIcon.setOnClickListener(view -> {
             Intent lensIntent = new Intent();
             Bundle bundle = new Bundle();
