@@ -4784,6 +4784,7 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
 
         FloatingTaskView firstFloatingTaskView =
                 mSplitSelectStateController.getFirstFloatingTaskView();
+        if (firstFloatingTaskView == null) return false;
         firstFloatingTaskView.getBoundsOnScreen(firstTaskStartingBounds);
         firstFloatingTaskView.addConfirmAnimation(pendingAnimation,
                 new RectF(firstTaskStartingBounds), firstTaskEndingBounds,
@@ -4926,6 +4927,7 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
         mTempRectF.set(mTempRect);
         FloatingTaskView firstFloatingTaskView =
                 mSplitSelectStateController.getFirstFloatingTaskView();
+        if (firstFloatingTaskView != null) return;
         firstFloatingTaskView.updateOrientationHandler(mOrientationHandler);
         firstFloatingTaskView.update(mTempRectF, /*progress=*/1f);
 
