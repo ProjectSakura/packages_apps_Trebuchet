@@ -347,6 +347,7 @@ public class InvariantDeviceProfile implements SafeCloseable, OnSharedPreference
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
+
         switch (key) {
             case KEY_ALLAPPS_THEMED_ICONS:
             case KEY_DRAWER_OPEN_KEYBOARD:
@@ -354,10 +355,6 @@ public class InvariantDeviceProfile implements SafeCloseable, OnSharedPreference
             case KEY_SHOW_DRAWER_LABELS:
                 onConfigChanged(mContext);
                 break;
-	}
-
-        if (KEY_SHOW_DESKTOP_LABELS.equals(key) || KEY_SHOW_DRAWER_LABELS.equals(key)) {
-            onConfigChanged(mContext);
         }
     }
 
