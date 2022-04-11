@@ -344,6 +344,7 @@ android_library {
         "libGoogleFeed",
         "org.lineageos.platform",
         "SettingsLib",
+        "org.lineageos.platform",
     ],
     manifest: "AndroidManifest-common.xml",
     sdk_version: "current",
