@@ -79,6 +79,8 @@ import com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider;
 
 import lineageos.providers.LineageSettings;
 
+import lineageos.providers.LineageSettings;
+
 import java.io.PrintWriter;
 import java.util.StringJoiner;
 
