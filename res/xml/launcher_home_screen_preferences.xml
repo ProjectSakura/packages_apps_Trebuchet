@@ -45,7 +45,18 @@
             android:summary="@string/pref_sleep_gesture_summary"
             android:defaultValue="true"
             android:persistent="true"/>
-            
+
+        <SwitchPreference
+            android:key="pref_allow_wallpaper_scrolling"
+            android:title="@string/allow_wallpaper_scrolling"
+            android:summary="@string/allow_wallpaper_scrolling_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/interface_category_title">
+
         <SwitchPreference
             android:key="pref_enable_minus_one"
             android:title="@string/title_show_google_app"
