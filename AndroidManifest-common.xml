@@ -231,7 +231,7 @@
             android:label="@string/about_trebuchet_title"
             android:theme="@android:style/Theme.DeviceDefault.Settings"
             android:autoRemoveFromRecents="true"
-            android:parentActivityName="com.android.launcher3.SettingsActivity" />
+            android:parentActivityName="com.android.launcher3.settings.SettingsActivity" />
 
         <provider
             android:name="com.android.launcher3.testing.TestInformationProvider"
