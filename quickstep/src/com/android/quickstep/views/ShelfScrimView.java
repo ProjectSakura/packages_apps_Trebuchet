@@ -261,7 +261,9 @@ public class ShelfScrimView extends ScrimView<BaseQuickstepLauncher>
 
     @Override
     protected boolean shouldDragHandleBeVisible() {
-        return true;
+        boolean needsAllAppsEdu = mIsTwoZoneSwipeModel
+                && !mOnboardingPrefs.hasReachedMaxCount(OnboardingPrefs.ALL_APPS_COUNT);
+        return needsAllAppsEdu || super.shouldDragHandleBeVisible();
     }
 
     @Override
