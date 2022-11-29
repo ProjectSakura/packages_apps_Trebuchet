@@ -37,4 +37,11 @@
         settings:units="%"
         android:defaultValue="100" />
 
+   <SwitchPreferenceCompat
+        android:key="pref_drawer_search"
+        android:title="@string/drawer_search_title"
+        android:summary="@string/drawer_search_summary"
+        android:defaultValue="true"
+        launcher:iconSpaceReserved="false" />
+
 </androidx.preference.PreferenceScreen>
