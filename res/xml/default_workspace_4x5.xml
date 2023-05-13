@@ -160,4 +160,31 @@
         launcher:x="3"
         launcher:y="-1" />
 
+    <resolve
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="-1" >
+        <favorite
+            launcher:packageName="org.lineageos.aperture"
+            launcher:className="com.android.camera.CameraLauncher" />
+        <favorite
+            launcher:packageName="com.android.camera2"
+            launcher:className="com.android.camera.CameraActivity" />
+        <favorite
+            launcher:packageName="com.android.camera"
+            launcher:className="com.android.camera.Camera" />
+        <favorite
+            launcher:packageName="com.oneplus.camera"
+            launcher:className="com.oneplus.camera.OPCameraActivity" />
+        <favorite
+            launcher:packageName="com.oplus.camera"
+            launcher:className="com.oplus.camera.Camera" />
+        <favorite
+            launcher:packageName="com.motorola.camera2"
+            launcher:className="com.motorola.camera.Camera" />
+        <favorite
+            launcher:packageName="com.motorola.camera3"
+            launcher:className="com.motorola.camera.Camera" />
+    </resolve>
+
 </favorites>
