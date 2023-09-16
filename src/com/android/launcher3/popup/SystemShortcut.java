@@ -7,7 +7,11 @@ import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCH
 import static com.android.launcher3.logging.StatsLogManager.LauncherEvent.LAUNCHER_SYSTEM_SHORTCUT_WIDGETS_TAP;
 
 import static android.content.pm.SuspendDialogInfo.BUTTON_ACTION_UNSUSPEND;
+import static android.app.WindowConfiguration.WINDOWING_MODE_FREEFORM;
 
+
+import android.app.Activity;
+import android.app.ActivityManagerNative;
 import android.app.ActivityOptions;
 import android.content.ComponentName;
 import android.app.AlertDialog;
@@ -21,6 +25,7 @@ import android.os.RemoteException;
 import android.util.Log;
 import android.view.InflateException;
 import android.view.View;
+import android.view.WindowInsets;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -456,5 +461,40 @@ public abstract class SystemShortcut<T extends ActivityContext> extends ItemInfo
     public static <T extends ActivityContext> void dismissTaskMenuView(T activity) {
         AbstractFloatingView.closeOpenViews(activity, true,
                 AbstractFloatingView.TYPE_ALL & ~AbstractFloatingView.TYPE_REBIND_SAFE);
+    }
+
+    public static final Factory<BaseDraggingActivity> FREE_FORM = (activity, itemInfo, originalView) -> 
+        new FreeForm(activity, itemInfo, originalView);
+
+    public static class FreeForm extends SystemShortcut<BaseDraggingActivity> {
+        private final String mPackageName;
+
+        public FreeForm(BaseDraggingActivity target, ItemInfo itemInfo, View originalView) {
+            super(R.drawable.ic_caption_desktop_button_foreground, R.string.recent_task_option_freeform, target, itemInfo, originalView);
+            mPackageName = itemInfo.getTargetComponent().getPackageName();
+        }
+
+        @Override
+        public void onClick(View view) {
+            if (mPackageName != null) {
+                Intent intent = mTarget.getPackageManager().getLaunchIntentForPackage(mPackageName);
+                if (intent != null) {
+                    ActivityOptions options = makeLaunchOptions(mTarget);
+                    mTarget.startActivity(intent, options.toBundle());
+                    AbstractFloatingView.closeAllOpenViews(mTarget);
+                }
+            }
+        }
+
+        private ActivityOptions makeLaunchOptions(Activity activity) {
+            ActivityOptions activityOptions = ActivityOptions.makeBasic();
+            activityOptions.setLaunchWindowingMode(WINDOWING_MODE_FREEFORM);
+            final View decorView = activity.getWindow().getDecorView();
+            final WindowInsets insets = decorView.getRootWindowInsets();
+            final Rect r = new Rect(0, 0, decorView.getWidth() / 2, decorView.getHeight() / 2);
+            r.offsetTo(insets.getSystemWindowInsetLeft() + 50, insets.getSystemWindowInsetTop() + 50);
+            activityOptions.setLaunchBounds(r);
+            return activityOptions;
+        }
     }
 }
