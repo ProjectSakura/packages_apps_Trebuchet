@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2023 crDroid Android Project
+     Copyright (C) 2020-2024 Project Sakura
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,12 +16,12 @@
 -->
 <resources>
 
-    <!-- QuickSpace -->
-    <style name="QuickSpaceText">
-        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
-    </style>
-
-    <style name="QuickSpaceSubText">
-        <item name="android:fontFamily">@*android:string/config_bodyFontFamily</item>
-    </style>
+    <!-- Base attributes available to CustomSeekBarPreference. -->
+    <declare-styleable name="CustomSeekBarPreference">
+        <attr name="defaultValueText" format="string" />
+        <attr name="interval" format="integer" />
+        <attr name="showSign" format="boolean" />
+        <attr name="units" format="string|reference" />
+        <attr name="continuousUpdates" format="boolean" />
+    </declare-styleable>
 </resources>
