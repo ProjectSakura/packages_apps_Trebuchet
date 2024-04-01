@@ -206,15 +206,15 @@
     <string name="quickspace_date_format_minimalistic" translatable="false">EEEE, MMMM d</string>
 
     <!-- QuickSpace: QuickEvent: Device Intro Event -->
-    <string name="quick_event_rom_intro_welcome">Welcome to crDroid!</string>
-    <string name="quick_event_rom_intro_welcome_ext">crDroid time!</string>
+    <string name="quick_event_rom_intro_welcome">Feels Like Spring!</string>
+    <string name="quick_event_rom_intro_welcome_ext">You upgraded from meh to heck yeah!</string>
     <string-array name="welcome_message_variants">
-        <item>Thank you for choosing us</item>
-        <item>Loving us? Send us a beer</item>
-        <item>Best Rom Ever.</item>
-        <item>Say hi to us on Telegram</item>
-        <item>Tap here to begin</item>
-        <item>We love you 3000</item>
+        <item>You are the best</item>
+        <item>Loving us? Send us a beer coz coffee for kids</item>
+        <item>where every click brings you closer to awesome!</item>
+        <item>Don't forget to follow us on X</item>
+        <item>Always recycle your plastics!</item>
+        <item>Let's make your screen time legendary!</item>
     </string-array>
 
     <!-- QuickSpace: QuickEvent: Greetings -->
@@ -244,129 +244,81 @@
     <string name="quickspace_psa_summary">Make your companion more lively with random messages</string>
 
     <string-array name="quickspace_psa_morning">
-        <item>Good morning!</item>
+        <item>Ohayo Gozaimasu!</item>
         <item>Good morning, time to rock!</item>
-        <item>What a beautiful day!</item>
+        <item>You should not skip exercises.</item>
         <item>Have a nice day!</item>
         <item>What about a small 5 minutes nap?</item>
+        <item>That\'s one way to wake up.</item>
+        <item>You should change your alarm sounds.</item>
+        <item>Looks like it\'s a beautiful day, isn\'t it?</item>
         <item>Let\'s get this bread.</item>
-        <item>Mornings are a fresh canvas for your daily masterpiece.</item>
-        <item>Embrace the sunrise of opportunity each morning.</item>
-        <item>In the early light, find the power to illuminate your path.</item>
-        <item>Your day begins with endless possibilities.</item>
-        <item>Every sunrise is a reminder that you can start anew.</item>
-        <item>Awake with purpose, conquer the day ahead.</item>
-        <item>Your thoughts can be the foundation of great achievements.</item>
-        <item>The world awakens, and so does your potential.</item>
-        <item>The first chapter in your daily adventure.</item>
-        <item>Let your morning routine be the launchpad for success.</item>
-        <item>Sunrise or not, your potential is always on the rise.</item>
-        <item>It\'s time for fresh ideas and bold actions.</item>
-        <item>The early bird catches the worm, but you can catch your dreams.</item>
-        <item>Find the courage to chase your aspirations.</item>
-        <item>Rise and shine, for greatness awaits.</item>
-        <item>The best time to start is now.</item>
+        <item>Check the weather just in case your crush needs an umbrella.</item>
+        <item>Feeling a bit sleepy yet</item>
+        <item>Have you looked outside yet?</item>
+        <item>Let\'s get this done.</item>
     </string-array>
     <string-array name="quickspace_psa_noon">
-        <item>Chase your dreams, not the minutes.</item>
-        <item>In every moment, a new opportunity.</item>
-        <item>Embrace the journey, not just the destination.</item>
-        <item>Today is a gift, that\'s why it\'s called the present.</item>
-        <item>Let your smile change the world.</item>
-        <item>Life is a story; make each chapter count.</item>
-        <item>Find joy in the ordinary moments.</item>
-        <item>The best is yet to come, keep it up.</item>
-        <item>Your chance to turn \'what if\' into \'what is.\'</item>
-        <item>Seize the day, starting right now.</item>
-        <item>Happiness is a choice you can make any time.</item>
-        <item>Believe in yourself, even on a sleepy afternoon.</item>
-        <item>Let your actions speak louder than the clock.</item>
-        <item>Your life is what you make of it; make it amazing.</item>
-        <item>Dream big, work hard, and never give up.</item>
-        <item>You are stronger than you think.</item>
-        <item>Every setback is a setup for a comeback.</item>
-        <item>Embrace the journey, not just the destination.</item>
-        <item>Chase your goals, not your fears.</item>
-        <item>Your potential is endless; unlock it.</item>
+        <item>Good night!</item>
+        <item>Sleep well!</item>
+        <item>See you tomorrow!</item>
+        <item>Sweet dreams!</item>
+        <item>Don\'t stay up too long</item>
+        <item>Have a good sleep</item>
+        <item>Get some sleep</item>
+        <item>Time to relax</item>
+        <item>Enjoy the night! Alone...</item>
+        <item>Time to charge the batteries!</item>
+        <item>It will be all good tomorrow because I am here!</item>
+        <item>Get your bones ready for tomorrow</item>
     </string-array>
     <string-array name="quickspace_psa_early_evening">
-        <item>Embrace the present moment, no matter the hour.</item>
-        <item>In every dusk, find a new dawn of opportunity.</item>
-        <item>Life is a journey; enjoy the scenery along the way.</item>
-        <item>Your attitude shapes your reality.</item>
-        <item>Your story is still being written, even as the sun sets.</item>
-        <item>Capture the beauty in the ordinary moments.</item>
-        <item>It\'s time to reflect and reset.</item>
-        <item>Choose joy, no matter the time on the clock.</item>
-        <item>Opportunities don\'t clock out in the evening.</item>
-        <item>Be the reason someone smiles.</item>
-        <item>Your potential knows no bounds.</item>
-        <item>Moments of magic can happen at any hour.</item>
-        <item>Your life is what you make of it; make it extraordinary.</item>
-        <item>Stay curious, stay grateful.</item>
-        <item>Be the change you wish to see in the world.</item>
-        <item>Believe in yourself; you are capable of amazing things.</item>
-        <item>The only limit is the one you set for yourself.</item>
-        <item>Success begins with a single step.</item>
+        <item>The hero we need after 6 PM!</item>
+        <item>Anime Time!!!</item>
+        <item>The ultimate signal for happy hour!</item>
+        <item>Procrastination feels just right!</item>
+        <item>Productivity? More like meme-scrolling time!</item>
+        <item>Snacks take the spotlight!</item>
+        <item>Nature's daily high-five: sunset!</item>
+        <item>Just one more episode, they said...</item>
     </string-array>
     <string-array name="quickspace_psa_evening">
-        <item>Seize the night, for it holds its own mysteries.</item>
-        <item>In the quiet of the this evening, find serenity.</item>
-        <item>Life\'s greatest adventures can start in the darkness.</item>
-        <item>Your journey continues even after the sun has set.</item>
-        <item>Let the night be your canvas; paint it with dreams.</item>
-        <item>In the stillness of this evening, find your inner peace.</item>
-        <item>Stars shine brightest in the darkest hours.</item>
-        <item>Dream big, even in the late hours of the day.</item>
-        <item>Your life is a story waiting to be written.</item>
-        <item>It\'s time for reflection and renewal.</item>
-        <item>Late night thoughts can lead to early morning revelations.</item>
-        <item>Find joy in the stillness of this evening.</item>
-        <item>The night sky is a vast canvas of dreams.</item>
-        <item>Your potential knows no bedtime; pursue your passions.</item>
-        <item>Stay hopeful, even in the darkest hours.</item>
-        <item>In the midst of chaos, find your inner calm.</item>
-        <item>Stay positive, work hard, make it happen.</item>
+        <item>Not lazy, just good at doing nothing</item>
+        <item>You sure about this bro?</item>
+        <item>Time to drink penchoo!</item>
+        <item>Chipi chipi chapa chapa </item>
+        <item>dubi dubi daba daba</item>
+        <item>Just be happy she isn't talking to drake</item>
+        <item>Opinions are like, well, everyone has bad taste.</item>
+        <item>Nothing beats being a pro at napping all day</item>
     </string-array>
     <string-array name="quickspace_psa_midnight">
-        <item>Nights are the quiet whispers of opportunity.</item>
-        <item>In the stillness of the night, find your inner strength.</item>
-        <item>Embrace the darkness, for it holds the keys to your dreams.</item>
-        <item>The world sleeps, but your potential is wide awake.</item>
-        <item>The night may be late, but your ambitions are timeless.</item>
-        <item>Stay curious, stay awake, and let nights guide you.</item>
-        <item>Find the courage to chase your dreams.</item>
-        <item>Great things never come from comfort zones.</item>
-        <item>You have the power to create your own destiny.</item>
-        <item>Happiness is a choice; choose it every day.</item>
-        <item>Life is what you make it, so make it count.</item>
-        <item>Stay focused, stay determined, stay unstoppable.</item>
-        <item>You are the author of your own story.</item>
-        <item>Strive for progress, not perfection.</item>
-        <item>Every day is a new beginning; make it a great one.</item>
-        <item>Inspire others by being your authentic self.</item>
-        <item>Your attitude determines your direction.</item>
+        <item>Um... good night?</item>
+        <item>It\'s a bit late now</item>
+        <item>I saw a ghost under the bed x_x</item>
+        <item>Bro she is talking to multiple people hehe</item>
     </string-array>
     <string-array name="quickspace_psa_random">
         <item>Ignorance is Bliss</item>
         <item>Is it time to flash another update already?</item>
-        <item>Make peace, not war</item>
+        <item>Hyped about Android 15?</item>
         <item>Oh hey, what\'s up?</item>
         <item>Focus on your tasks</item>
         <item>How many screenshots do you take?</item>
-        <item>Open goodness with crDroid</item>
-        <item>Spread love, not havoc</item>
-        <item>We didn\'t start the fire!</item>
+        <item>She will not say yes xD</item>
+        <item>Spread love not havoc :P</item>
+        <item>Have fun!</item>
         <item>Time for some good music</item>
         <item>\u003C\u003C\u003C\u003C\u003C\u003C\u003C HEAD</item>
-        <item>You need crDroid Premium to see this</item>
+        <item>You need Project Sakura Premium</item>
         <item>Remember the Lineage of the Unicorn</item>
         <item>Enjoy Xtended battery life</item>
         <item>Starting from the ground zero</item>
-        <item>We love you 3000</item>
-        <item>Delicious even without Sushi</item>
+        <item>Using Project Sakura? Damn you are superior</item>
+        <item>Stay Home, Stay Safe</item>
         <item>Do something nice today</item>
-        <item>This is best Pixel Experience, isn\'t it?</item>
+        <item>Hello there its a nice day, isn\'t it?</item>
+        <item>How is everything going?</item>
         <item>No illusions, welcome to reality!</item>
         <item>Thank you for your support</item>
         <item>No festival for Derps - only perfection!</item>
@@ -377,15 +329,8 @@
         <item>Evolution is a myth, right?</item>
         <item>You are what you flash, don\'t be Potato</item>
         <item>What\'s on your mind?</item>
-        <item>Expecto Patronum</item>
-        <item>Wubba Lubba Dub Dub</item>
-        <item>Winner Winner ....?</item>
+        <item>Playing that stupid game again?</item>
         <item>rm -rf \/</item>
-        <item>Pringles aren\'t actually potato chips..</item>
-        <item>Remember to check device\'s battery level!</item>
-        <item>Check your email/messages.</item>
-        <item>Check your to-do list if you have one.</item>
-        <item>You can disable quickspace via home settings.</item>
     </string-array>
 
     <!-- QuickSpace: QuickEvent: Weather -->

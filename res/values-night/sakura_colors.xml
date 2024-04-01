@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2024 crDroid Android Project
+     Copyright (C) 2020-2024 Project Sakura
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +16,8 @@
 -->
 <resources>
 
-    <!-- Sort sections of apps list, in case AlphabeticIndex (of current locale)
-         returns duplicate labels for some reasons. -->
-    <bool name="config_appsListSortSections">true</bool>
+    <!-- Appseat -->
+    <color name="appseat_color">@*android:color/system_neutral2_900</color>
+
+    <color name="gicon_mask">#1AFFFFFF</color>
 </resources>
