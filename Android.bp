@@ -186,11 +186,10 @@ android_library {
         "androidx.window_window",
         "com.google.android.material_material",
         "iconloader_base",
-        "libGoogleFeed",
         "SettingsLib",
         "view_capture",
         "animationlib",
-        "org.lineageos.platform"
+        "libGoogleFeed",
     ],
     manifest: "AndroidManifest-common.xml",
     sdk_version: "current",
