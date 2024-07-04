@@ -21,6 +21,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.SuspendDialogInfo;
 import android.graphics.Rect;
+import android.os.Process;
+import android.os.UserHandle;
 import android.os.RemoteException;
 import android.util.Log;
 import android.view.InflateException;
@@ -68,6 +70,7 @@ import java.util.List;
 public abstract class SystemShortcut<T extends ActivityContext> extends ItemInfo
         implements View.OnClickListener {
 
+    private static final String TAG = SystemShortcut.class.getSimpleName();
     private final int mIconResId;
     protected final int mLabelResId;
     protected int mAccessibilityActionId;
@@ -203,7 +206,7 @@ public abstract class SystemShortcut<T extends ActivityContext> extends ItemInfo
                         R.layout.app_info_bottom_sheet,
                         mTarget.getDragLayer(),
                         false);
-                cbs.configureBottomSheet(sourceBounds, mTarget);
+                cbs.configureBottomSheet(sourceBounds, view.getContext());
                 cbs.populateAndShow(mItemInfo);
             } catch (InflateException e) {
                 new PackageManagerHelper(mTarget).startDetailsActivityForInfo(
@@ -362,16 +365,19 @@ public abstract class SystemShortcut<T extends ActivityContext> extends ItemInfo
         }
     }
 
-    public static final Factory<BaseDraggingActivity> PAUSE_APPS =
+    public static final Factory<ActivityContext> PAUSE_APPS =
             (activity, itemInfo, originalView) -> {
-                if (new PackageManagerHelper(activity).isAppSuspended(
+                if (originalView == null) {
+                    return null;
+                }
+                if (new PackageManagerHelper(originalView.getContext()).isAppSuspended(
                         itemInfo.getTargetComponent().getPackageName(), itemInfo.user)) {
                     return null;
                 }
                 return new PauseApps(activity, itemInfo, originalView);
     };
 
-    public static class PauseApps<T extends Context & ActivityContext> extends SystemShortcut<T> {
+    public static class PauseApps<T extends ActivityContext> extends SystemShortcut<T> {
 
         public PauseApps(T target, ItemInfo itemInfo, View originalView) {
             super(R.drawable.ic_hourglass, R.string.paused_apps_drop_target_label, target,
@@ -465,13 +471,13 @@ public abstract class SystemShortcut<T extends ActivityContext> extends ItemInfo
                 AbstractFloatingView.TYPE_ALL & ~AbstractFloatingView.TYPE_REBIND_SAFE);
     }
 
-    public static final Factory<BaseDraggingActivity> FREE_FORM = (activity, itemInfo, originalView) -> 
+    public static final Factory<ActivityContext> FREE_FORM = (activity, itemInfo, originalView) -> 
         new FreeForm(activity, itemInfo, originalView);
 
-    public static class FreeForm extends SystemShortcut<BaseDraggingActivity> {
+    public static class FreeForm<T extends ActivityContext> extends SystemShortcut<T> { 
         private final String mPackageName;
 
-        public FreeForm(BaseDraggingActivity target, ItemInfo itemInfo, View originalView) {
+        public FreeForm(T target, ItemInfo itemInfo, View originalView) {
             super(R.drawable.ic_caption_desktop_button_foreground, R.string.recent_task_option_freeform, target, itemInfo, originalView);
             mPackageName = itemInfo.getTargetComponent().getPackageName();
         }
@@ -479,11 +485,11 @@ public abstract class SystemShortcut<T extends ActivityContext> extends ItemInfo
         @Override
         public void onClick(View view) {
             if (mPackageName != null) {
-                Intent intent = mTarget.getPackageManager().getLaunchIntentForPackage(mPackageName);
+                Intent intent = ((Context) mTarget).getPackageManager().getLaunchIntentForPackage(mPackageName);
                 if (intent != null) {
-                    ActivityOptions options = makeLaunchOptions(mTarget);
-                    mTarget.startActivity(intent, options.toBundle());
-                    AbstractFloatingView.closeAllOpenViews(mTarget);
+                    ActivityOptions options = makeLaunchOptions(((Activity) mTarget));
+                    ((Context) mTarget).startActivity(intent, options.toBundle());
+                    AbstractFloatingView.closeAllOpenViews(((ActivityContext) mTarget));
                 }
             }
         }

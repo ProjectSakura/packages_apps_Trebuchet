@@ -132,6 +132,7 @@ public class OverviewState extends LauncherState {
         }
         if (memInfo) {
             elements |= MEMINFO;
+        }
         if (!clearAll) {
             elements |= CLEAR_ALL_BUTTON;
         }

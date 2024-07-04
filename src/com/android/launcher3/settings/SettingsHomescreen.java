@@ -254,9 +254,6 @@ public class SettingsHomescreen extends CollapsingToolbarBaseActivity
             if (mShowGoogleAppPref != null) {
                 mShowGoogleAppPref.setEnabled(Utilities.isGSAEnabled(getContext()));
             }
-            if (mShowGoogleBarPref != null) {
-                mShowGoogleBarPref.setEnabled(Utilities.isGSAEnabled(getContext()));
-            }
         }
 
         @Override
