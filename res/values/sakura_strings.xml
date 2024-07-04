@@ -77,9 +77,6 @@
 
     <!-- Font size -->
     <string name="font_size_title">Font size</string>
-
-    <!-- App label - max lines -->
-    <string name="icon_max_lines_title">Max lines for app label</string>
    
     <!-- Kill App recents action shortcut -->
     <string name="recent_task_option_kill_app">Kill</string>
