@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 The LineageOS Project
+ * Copyright (C) 2019 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -26,7 +26,6 @@ import android.os.Build;
 
 import androidx.annotation.NonNull;
 
-import com.android.launcher3.AppFilter;
 import com.android.internal.util.sakura.Utils;
 import com.android.launcher3.lineage.trust.db.TrustComponent;
 
@@ -43,9 +42,6 @@ public class LoadTrustComponentsTask extends AsyncTask<Void, Integer, List<Trust
     private PackageManager mPackageManager;
 
     @NonNull
-    private AppFilter mAppFilter;
-
-    @NonNull
     private Callback mCallback;
 
     @NonNull
@@ -53,12 +49,10 @@ public class LoadTrustComponentsTask extends AsyncTask<Void, Integer, List<Trust
 
     LoadTrustComponentsTask(@NonNull AppLockHelper appLockHelper,
             @NonNull PackageManager packageManager,
-            @NonNull AppFilter appFilter,
             @NonNull Callback callback,
             @NonNull Context context) {
         mAppLockHelper = appLockHelper;
         mPackageManager = packageManager;
-        mAppFilter = appFilter;
         mCallback = callback;
         mContext = context;
     }

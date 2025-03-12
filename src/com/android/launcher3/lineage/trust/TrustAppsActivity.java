@@ -45,7 +45,6 @@ import com.android.launcher3.AppFilter;
 import com.android.launcher3.LauncherAppState;
 import com.android.launcher3.LauncherPrefs;
 import com.android.launcher3.R;
-import com.android.launcher3.lineage.LineageUtils;
 import com.android.launcher3.Utilities;
 import com.android.launcher3.lineage.trust.db.TrustComponent;
 
@@ -105,7 +104,7 @@ public class TrustAppsActivity extends CollapsingToolbarBaseActivity implements
         showOnBoarding(false);
 
         final AppFilter appFilter = new AppFilter(this);
-        new LoadTrustComponentsTask(mAppLockHelper,, getPackageManager(), appFilter, this).execute();
+        new LoadTrustComponentsTask(mAppLockHelper, getPackageManager(), this, this).execute();
     }
 
     @Override

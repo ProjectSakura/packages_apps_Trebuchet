@@ -405,13 +405,6 @@ android_app {
     },
 }
 
-java_import {
-    name: "libGoogleFeed",
-    jars: [
-        "libs/libGoogleFeed.jar",
-    ],
-}
-
 // Library with all the dependencies for building quickstep
 android_library {
     name: "QuickstepResLib",

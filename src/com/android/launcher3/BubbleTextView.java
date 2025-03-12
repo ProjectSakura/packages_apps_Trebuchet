@@ -226,8 +226,6 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver,
     private boolean mShouldShowLabel;
     private boolean mThemeAllAppsIcons;
 
-    private boolean mThemeAllAppsIcons;
-
     private CancellableTask mIconLoadRequest;
 
     private boolean mEnableIconUpdateAnimation = false;
