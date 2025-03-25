@@ -81,6 +81,8 @@ import com.android.systemui.shared.system.QuickStepContract.SystemUiStateFlags;
 import com.android.systemui.unfold.UnfoldTransitionProgressProvider;
 import com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider;
 
+import com.android.internal.util.crdroid.Utils;
+
 import lineageos.providers.LineageSettings;
 
 import java.io.PrintWriter;
@@ -786,9 +788,8 @@ public class TaskbarManager {
     }
 
     boolean hasNavigationBar() {
-        return mActivity.getResources().getBoolean(
-                com.android.internal.R.bool.config_showNavigationBar) ||
-                SettingsCache.INSTANCE.get(mWindowContext).getValue(FORCE_SHOW_NAVBAR, 0);
+        return SettingsCache.INSTANCE.get(mWindowContext).getValue(FORCE_SHOW_NAVBAR,
+                Utils.hasNavbarByDefault(mWindowContext) ? 1 : 0);
     }
 
     private void addTaskbarRootViewToWindow(int displayId) {
