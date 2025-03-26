@@ -81,7 +81,7 @@ import com.android.systemui.shared.system.QuickStepContract.SystemUiStateFlags;
 import com.android.systemui.unfold.UnfoldTransitionProgressProvider;
 import com.android.systemui.unfold.util.ScopedUnfoldTransitionProgressProvider;
 
-import com.android.internal.util.crdroid.Utils;
+import com.android.internal.util.sakura.Utils;
 
 import lineageos.providers.LineageSettings;
 
